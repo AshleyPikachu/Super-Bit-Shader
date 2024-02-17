@@ -23,8 +23,9 @@ Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
 -----------------------------------------------------------------------------------------------------------------------
 **Other Guides**
 
-[Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
-[Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
+[Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY)
+
+[Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
 
 **Credits**
 

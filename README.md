@@ -9,7 +9,9 @@ Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
 **How to Setup**
 1. First install [Retroarch](https://www.retroarch.com/) and run the software. From the inside of Retroarch set the Video output to GL before using this Shader.
 2. Download the content of this Github and place the folder inside the Retroarch Shaders directory.
+
 **Standard Windows Directory**: "C:\RetroArch-Win64\shaders"
+
 4. Launch Retroarch and load the game you want to use the Shader with.
 5. Press F1 to launch the Retroarch menu and locate the Quick Menu, from there locate Shaders tab and select it.
 6. Turn on Shaders and scroll down to the bottom until you see Shader Passes, change the pass from 0 to 1.

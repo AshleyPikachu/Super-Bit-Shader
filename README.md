@@ -32,9 +32,9 @@ Shader #0 Scale                Default
 10. Lastly press F1 again to get back into the game, have fun!
 
 **Guides**
-[Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
-[Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
-------------------------------------------------------------------------------------------------------------------------------
+Retroarch Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
+Shaders / Shader Passes Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
+
 **Credits**
 Original Code by hunterk
 Testing & Code Tweaking by Digiflower5 (AshleyPikachu) & hunterk.

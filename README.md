@@ -23,15 +23,13 @@ Shader #0 Scale                Default
 
 7. With the pass loaded, press enter on "Shader #0" to load the Shaders directory, locate the shader and press enter.
 
-Shader Passes
+Shader Passes<br>
 Shader #0                      SelectedShaderHere
 Shader #0 Filter               Default
 Shader #0 Scale                Default
 
 8. If everything has been done correctly, press "Apply Changes" to activate the shader.
-9. Now select "Save Preset" to save this shader to your game or core. If you need it removed, select "Remove Preset".
-10. Lastly press F1 again to get back into the game, have fun!
-    
+9. Lastly select "Save Preset" to save this shader to your game or core. If you need it removed, select "Remove Preset".    
 -----------------------------------------------------------------------------------------------------------------------
 **Guides**
 

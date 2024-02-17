@@ -30,9 +30,12 @@ Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
 **Credits**
 
 Original Code by hunterk
+
 Testing & Code Tweaking by Digiflower5 (AshleyPikachu) & hunterk.
+
 Special Thanks to Nispero & EADMASTER for inspiring this project.
 
 **License**
+
 This code is Public Domain, feel free to use it any way you see fit.
 

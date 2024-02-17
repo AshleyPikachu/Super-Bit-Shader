@@ -21,10 +21,10 @@ Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
 10. If you need the shader removed, select "Remove Preset".
 11. Press F1 again to get back to your game.
 -----------------------------------------------------------------------------------------------------------------------
-**Guides**
+**Other Guides**
 
-Retroarch Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
-Shaders / Shader Passes Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
+[Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
+[Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
 
 **Credits**
 

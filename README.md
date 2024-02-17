@@ -36,6 +36,7 @@ Shader #0 Scale                Default
     
 -----------------------------------------------------------------------------------------------------------------------
 **Guides**
+
 Retroarch Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
 Shaders / Shader Passes Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
 

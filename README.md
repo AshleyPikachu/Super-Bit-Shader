@@ -30,7 +30,8 @@ Shader #0 Scale                Default
 8. If everything has been done correctly, press "Apply Changes" to activate the shader.
 9. Now select "Save Preset" to save this shader to your game or core. If you need it removed, select "Remove Preset".
 10. Lastly press F1 again to get back into the game, have fun!
-
+    
+-----------------------------------------------------------------------------------------------------------------------
 **Guides**
 Retroarch Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 
 Shaders / Shader Passes Beginners Guide (https://www.youtube.com/watch?v=YyZ6IrmsNgY). 

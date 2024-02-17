@@ -5,6 +5,7 @@ Super Bit Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
 **NOTE**: You can use unsupported systems but colors may be misrepresented.
 
+-----------------------------------------------------------------------------------------------------------------------
 **How to Setup**
 1. First install [Retroarch](https://www.retroarch.com/) and run the software. From the inside of Retroarch set the Video output to GL before using this Shader.
 2. Download the content of this Github and place the folder inside the Retroarch Shaders directory.

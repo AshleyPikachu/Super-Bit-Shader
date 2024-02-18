@@ -23,7 +23,7 @@ Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
 -----------------------------------------------------------------------------------------------------------------------
 **Screenshots**
 
-[Virtual Boy Screenshot](https://i.imgur.com/yWm4wEx.png))
+![Virtual Boy Screenshot!](https://i.imgur.com/yWm4wEx.png))
 
 -----------------------------------------------------------------------------------------------------------------------
 **Other Guides**

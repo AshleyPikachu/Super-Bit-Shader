@@ -2,7 +2,7 @@
 Super Bit Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
 
 **Supported Consoles**
-Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
+Game Boy, Virtual Boy, Pokemon Mini, Neo Geo Pocket, and WonderSwan.
 **NOTE**: You can use unsupported systems but colors may be misrepresented.
 
 -----------------------------------------------------------------------------------------------------------------------

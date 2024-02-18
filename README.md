@@ -18,8 +18,7 @@ Game Boy, Virtual Boy, Neo Geo Pocket, and Wonderswan.
 7. With the pass loaded, press enter on "Shader #0" to load the Shaders directory, locate the shader and select it.
 8. If everything has been done correctly, press "Apply Changes" to activate the shader.
 9. Lastly select "Save Preset" to save this shader to your game or core.
-10. If you need the shader removed, select "Remove Preset".
-11. Press F1 again to get back to your game.
+10. If you need the shader removed, select "Remove Preset", also press F1 again to get back to your game.
 -----------------------------------------------------------------------------------------------------------------------
 **Screenshots**
 

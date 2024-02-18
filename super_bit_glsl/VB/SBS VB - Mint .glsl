@@ -114,7 +114,7 @@ void main()
    vec3 second = vec3(0.447,0.796,0.447); // Black Lighter
    vec3 third = vec3(0.369,0.62,0.235); // Dark
    vec3 fourth = vec3(0.196,0.439,0.376); // Medium Darker
-   vec3 black  = vec3(0.141,0.302,0.141); // Black
+   vec3 black  = vec3(0.024,0.184,0.024); // Black
 
    vec3 texColor = COMPAT_TEXTURE(Source, vTexCoord).rgb;
    float luma = dot(texColor, vec3(0.2126, 0.7152, 0.0722));

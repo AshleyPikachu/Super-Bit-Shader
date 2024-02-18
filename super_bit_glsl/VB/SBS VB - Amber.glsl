@@ -110,9 +110,9 @@ void main()
 {
    // palette
    vec3 white  = vec3(1.,0.973,0.847); // Light
-   vec3 first = vec3(0.965,0.855,0.137); // Medium
-   vec3 second = vec3(0.557,0.478,0.337); // Black Lighter
-   vec3 third = vec3(0.667,0.471,0.); // Dark
+   vec3 first = vec3(1.,1.,0.408); // Medium
+   vec3 second = vec3(0.788,0.741,0.447); // Black Lighter
+   vec3 third = vec3(0.608,0.494,0.231); // Dark
    vec3 fourth = vec3(0.412,0.353,0.); // Medium Darker
    vec3 black  = vec3(0.239,0.208,0.145); // Black
 

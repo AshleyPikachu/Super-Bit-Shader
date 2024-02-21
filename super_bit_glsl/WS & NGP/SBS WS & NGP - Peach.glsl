@@ -9,7 +9,7 @@
 #pragma parameter first_thresh "Lightest Gray Threshold" 0.81 0.0 1.0 0.01
 #pragma parameter second_thresh "Light Gray Threshold" 0.67 0.0 1.0 0.01
 #pragma parameter third_thresh "Medium Gray Threshold" 0.55 0.0 1.0 0.01
-#pragma parameter fourth_thresh "Med-Dark Gray Threshold" 0.33 0.0 1.0 0.01
+#pragma parameter fourth_thresh "Med-Dark Gray Threshold" 0.34 0.0 1.0 0.01
 #pragma parameter fifth_thresh "Dark Gray Threshold" 0.25 0.0 1.0 0.01
 #pragma parameter sixth_thresh "Midnight Gray Threshold" 0.15 0.0 1.0 0.01
 #pragma parameter seventh_thresh "Dark Threshold (everything darker is black)" 0.05 0.0 1.0 0.01
@@ -106,7 +106,7 @@ uniform COMPAT_PRECISION float black_thresh;
 #define first_thresh 0.81
 #define second_thresh 0.67
 #define third_thresh 0.55
-#define fourth_thresh 0.33
+#define fourth_thresh 0.34
 #define fifth_thresh 0.25
 #define sixth_thresh 0.15
 #define seventh_thresh 0.05

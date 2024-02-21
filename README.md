@@ -45,7 +45,7 @@ Special Thanks to Nispero & EADMASTER for inspiring this project.
 This code is Public Domain, feel free to use it any way you see fit.
 
 -----------------------------------------------------------------------------------------------------------------------
-**Super Bit Shader - Shader Pairings** - Shader Pass Order is real important, and parameters are default unless stated otherwise.
+**Super Bit Shader - Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
 
 Virtual Boy 1: Super Bit Shader, Gdapt - This adds Color Blending.
 
@@ -53,8 +53,7 @@ Virtual Boy 2: Super Bit Shader, Response Time, Gdapt - This adds Ghosting & Col
 
 Wonderswan BW: Super Bit Shader, Response Time (Parameter 0.56) - This adds Ghosting / Transparency
 
-**Other Shader Pairings** - Shader Pass Order is real important, and parameters are default unless stated otherwise.
-While outside the scope of Super Bit Shader, here's some Wonderswan Color Advice.
+**Other Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
 
 Wonderswan Color: Gba-Color & Response Time (Parameter 0.56) - This adds more accurate colors and Ghosting / Transparency
 

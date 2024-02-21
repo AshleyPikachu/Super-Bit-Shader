@@ -55,7 +55,7 @@ This code is Public Domain, feel free to use it any way you see fit.
 GLSL Shaders Locations: "Dithering" and "Motionblur"
 
 -----------------------------------------------------------------------------------------------------------------------
-**Other Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
+**Other Default Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
 
 *Wonderswan Color*: Gba-Color & Response Time (Parameter 0.56)
 

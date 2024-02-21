@@ -47,15 +47,15 @@ This code is Public Domain, feel free to use it any way you see fit.
 -----------------------------------------------------------------------------------------------------------------------
 **Super Bit Shader - Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
 
-*Virtual Boy 1*: Super Bit Shader, Gdapt
+*Virtual Boy*: Super Bit Shader & Gdapt / Super Bit Shader, Response Time & Gdapt
 
-*Virtual Boy 2*: Super Bit Shader, Response Time, Gdapt
+*Wonderswan*: Super Bit Shader & Response Time (Parameter 0.56)
 
-*Wonderswan*: Super Bit Shader, Response Time (Parameter 0.56)
+GLSL Shaders Locations: "Dithering" and "Motionblur"
 
 -----------------------------------------------------------------------------------------------------------------------
 **Other Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
 
 *Wonderswan Color*: Gba-Color, Response Time (Parameter 0.56)
 
-All these Shaders can be found in the following GLSL folders, "Dithering" "Motionblur" "Handheld".
+GLSL Shaders Locations: "Handheld" and "Motionblur".

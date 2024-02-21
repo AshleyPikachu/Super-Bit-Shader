@@ -53,6 +53,7 @@ This code is Public Domain, feel free to use it any way you see fit.
 
 *Wonderswan*: Super Bit Shader, Response Time (Parameter 0.56)
 
+
 **Other Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
 
 *Wonderswan Color*: Gba-Color, Response Time (Parameter 0.56)

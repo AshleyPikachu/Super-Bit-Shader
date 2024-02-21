@@ -26,12 +26,6 @@ Game Boy, Virtual Boy, Pokémon Mini, Neo Geo Pocket, and WonderSwan.
 ![Virtual Boy Screenshot!](https://i.imgur.com/yWm4wEx.png)
 
 -----------------------------------------------------------------------------------------------------------------------
-**Other Guides**
-
-[Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY)
-
-[Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
-
 **Credits**
 
 Original Code by hunterk
@@ -43,6 +37,13 @@ Special Thanks to Nispero & EADMASTER for inspiring this project.
 **License**
 
 This code is Public Domain, feel free to use it any way you see fit.
+
+-----------------------------------------------------------------------------------------------------------------------
+**Other Guides**
+
+[Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY)
+
+[Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
 
 -----------------------------------------------------------------------------------------------------------------------
 **Default Shaders to Pair with Super Bit Shader** - Pass Order is important & parameters are default unless stated otherwise.

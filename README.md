@@ -46,7 +46,7 @@ This code is Public Domain, feel free to use it any way you see fit.
 [Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
 
 -----------------------------------------------------------------------------------------------------------------------
-**Default Shaders to Pair with Super Bit Shader** - Pass Order is important & parameters are default unless stated otherwise.
+**Default Shaders to pair with Super Bit Shader** - Pass Order is important & parameters are default unless stated otherwise.
 
 *Virtual Boy*: Super Bit Shader & Gdapt OR Super Bit Shader, Response Time & Gdapt
 

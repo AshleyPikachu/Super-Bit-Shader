@@ -9,7 +9,8 @@ Game Boy, Virtual Boy, Pokémon Mini, Neo Geo Pocket, and WonderSwan.
 -----------------------------------------------------------------------------------------------------------------------
 **How to Setup**
 1. First install [Retroarch](https://www.retroarch.com/) and run the software, set the Video output to GL before using this Shader.
-2. Download the content of this Github and place the folder inside the Retroarch Shaders directory.
+2. If you are using Virtual Boy be sure to set its core settings to output in Black & White.
+3. Download the content of this Github and place the folder inside the Retroarch Shaders directory.
 
 **Standard Windows Directory**: "C:\RetroArch-Win64\shaders"
 

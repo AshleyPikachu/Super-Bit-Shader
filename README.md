@@ -47,17 +47,10 @@ This code is Public Domain, feel free to use it any way you see fit.
 [Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
 
 -----------------------------------------------------------------------------------------------------------------------
-**Default Shaders to pair with Super Bit Shader** - Pass Order is important & parameters are default unless stated otherwise.
+**Recommended Shaders Pairings** - Pass Order is important & parameters are default unless stated otherwise.
 
-*Virtual Boy*: Super Bit Shader & Gdapt OR Super Bit Shader, Response Time & Gdapt
-
-*Wonderswan*: Super Bit Shader & Response Time (Parameter 0.56)
+*Virtual Boy*: Super Bit Shader & Gdapt - Color Blending and Transparency
+*Wonderswan*: Super Bit Shader & Response Time (Parameter 0.56) - Transpareny & Ghosting
+*Wonderswan Color*: Gba-Color & Response Time (Parameter 0.56) - Color Improvements & Transparency / Ghosting
 
 GLSL Shaders Locations: "Dithering" and "Motionblur"
-
------------------------------------------------------------------------------------------------------------------------
-**Other Default Shader Pairings** - Shader Pass Order is important & parameters are default unless stated otherwise.
-
-*Wonderswan Color*: Gba-Color & Response Time (Parameter 0.56)
-
-GLSL Shaders Locations: "Handheld" & "Motionblur"

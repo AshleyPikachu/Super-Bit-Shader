@@ -51,8 +51,10 @@ This code is Public Domain, feel free to use it any way you see fit.
 
 *Virtual Boy*: Super Bit Shader & Gdapt - Color Blending and Transparency
 
-*Wonderswan*: Super Bit Shader & Response Time (Parameter 0.56) - Transpareny & Ghosting
+*Wonderswan*: Super Bit Shader & mixed_frames - Transpareny & Ghosting
 
- *Wonderswan Color*: Gba-Color & Response Time (Parameter 0.56) - Color Improvements & Transparency / Ghosting
+ *Wonderswan Color*: nds-color & mixed_frames - Color Improvements & Transparency / Ghosting
+
+Be sure to Turn off 60fps mode for Wonderswan / Wonderswan Color, even if your device is only 60fps.
 
 GLSL Shaders Locations: "Dithering" and "Motionblur"

@@ -33,6 +33,8 @@ Original Code by hunterk
 
 Testing & Calibrating by Digiflower5 (AshleyPikachu) & hunterk.
 
+Color Selection by Digiflower5.
+
 Special Thanks to Nispero & EADMASTER for inspiring this project.
 
 **License**

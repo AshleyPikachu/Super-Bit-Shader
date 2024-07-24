@@ -31,7 +31,7 @@ Game Boy, Virtual Boy, Pokémon Mini, Neo Geo Pocket, and WonderSwan.
 
 Original Code by hunterk
 
-Testing & Code Tweaking by Digiflower5 (AshleyPikachu) & hunterk.
+Testing & Calibrating by Digiflower5 (AshleyPikachu) & hunterk.
 
 Special Thanks to Nispero & EADMASTER for inspiring this project.
 

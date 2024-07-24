@@ -33,7 +33,7 @@ Original Code by hunterk
 
 Testing & Calibrating by Digiflower5 (AshleyPikachu) & hunterk.
 
-Color Selection by Digiflower5.
+Color Selection by Digiflower5 (AshleyPikachu).
 
 Special Thanks to Nispero & EADMASTER for inspiring this project.
 

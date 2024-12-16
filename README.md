@@ -11,8 +11,8 @@ Wonderswan (Beetle Cygne)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Screenshots**
-![Virtual Boy Screenshot!](URLHERE)
-![Pokemon Mini Screenshot!](URLHERE)
+![Virtual Boy Screenshot!](https://i.imgur.com/fiUjUke.png)
+![Pokemon Mini Screenshot!](https://i.imgur.com/qhzJsD8.png)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Systems that require their Core Options to be adjusted**

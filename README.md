@@ -1,62 +1,74 @@
 # Super-Bit-Shader
-Super Bit Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
+-----------------------------------------------------------------------------------------------------------------------
+Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
+Version: 2.0
 
 **Supported Consoles**
-Game Boy, Virtual Boy, Pokémon Mini, Neo Geo Pocket, and WonderSwan.
+Neo Geo Pocket (Beetle NeoPop)
+Pokémon Mini (PokeMini)
+Virtual Boy (Beetle VB)
+Wonderswan (Beetle Cygne)
 
-**NOTE**: You can use unsupported systems but colors may be misrepresented.
-
------------------------------------------------------------------------------------------------------------------------
-**How to Setup**
-1. First install [Retroarch](https://www.retroarch.com/) and run the software, set the Video output to GL before using this Shader.
-2. If you are using Virtual Boy be sure to set its core settings to output in Black & White.
-3. Download the content of this Github and place the folder inside the Retroarch Shaders directory.
-
-**Standard Windows Directory**: "C:\RetroArch-Win64\shaders"
-
-4. Launch Retroarch and load the game you want to use the Shader with.
-5. Press F1 to launch the Retroarch menu and locate the Quick Menu, from there locate Shaders tab and select it.
-6. Turn on Shaders and scroll down to the bottom until you see Shader Passes, change the pass from 0 to 1.
-7. With the pass loaded, press enter on "Shader #0" to load the Shaders directory, locate the shader and select it.
-8. If everything has been done correctly, press "Apply Changes" to activate the shader.
-9. Lastly select "Save Preset" to save this shader to your game or core.
-10. If you need the shader removed, select "Remove Preset", also press F1 again to get back to your game.
 -----------------------------------------------------------------------------------------------------------------------
 **Screenshots**
+![Virtual Boy Screenshot!](URLHERE)
+![Pokemon Mini Screenshot!](URLHERE)
 
-![Virtual Boy Screenshot!](https://i.imgur.com/yWm4wEx.png)
+-----------------------------------------------------------------------------------------------------------------------
+**Systems that require their Core Options to be adjusted**
+-----------------------------------------------------------------------------------------------------------------------
+Neo Geo Pocket: Default Settings are fine.
+Pokemon Mini: Palette - Black & White
+Virtual Boy: Palette - Black & White
+Wonderswan: Color Palette - Grayscale, Color Depth - Thousands (16-bit)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Credits**
-
-Original Code by hunterk
-
-Testing & Calibrating by Digiflower5 (AshleyPikachu) & hunterk.
-
+-----------------------------------------------------------------------------------------------------------------------
+Base Code by hunterk
 Color Selection by Digiflower5 (AshleyPikachu).
+
+Version 1.0: Testing and calibrating by Digiflower5 (AshleyPikachu) & hunterk.
+Version 2.0: Testing, calibrating, and comments by Digiflower5 (AshleyPikachu)
 
 Special Thanks to Nispero & EADMASTER for inspiring this project.
 
 **License**
-
 This code is Public Domain, feel free to use it any way you see fit.
 
 -----------------------------------------------------------------------------------------------------------------------
-**Other Guides**
-
+**Retroarch PC Guides and Instructions**
+-----------------------------------------------------------------------------------------------------------------------
 [Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY)
+[Shaders / Shader Passes Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
 
-[Shaders / Shader Passes Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
+1. First download and install [Retroarch](https://www.retroarch.com/).
+2. Go into settings and make sure the video is outputting to GL before continuing.
+3. Download the contents of this Github and look inside each folder for the .glsl files you want to use.
+4. Place the glsl files inside the Retroarch Shaders directory.
+
+**Standard Windows Directory**: "C:\RetroArch-Win64\shaders"
+
+5. Launch Retroarch and load the game you want to use the Shader with.
+6. Press F1 to bring up the Retroarch Quick Menu.
+7. With the menu open scroll down to Shaders and select it.
+8. Turn on shaders and scroll down until you see Shader Passes. 
+9. Once found change the Shader Pass from 0 to 1.
+10. Now press enter on "Shader #0" to load the Shaders directory and select the Super-Bit-Shader.
+11. Once your shader is selected press "Apply Changes" to activate the shader.
+12. To keep your shader on the next reboot select "Save Preset" to save this shader to your game or core, and if you need the shader removed, select "Remove Preset".
+13. Lastly press F1 again to get back to your game.
 
 -----------------------------------------------------------------------------------------------------------------------
-**Recommended Shaders Pairings** - Pass Order is important & parameters are default unless stated otherwise.
+**How to Create Your Own Palette**
+-----------------------------------------------------------------------------------------------------------------------
+Prerequisites
+1. A Photo editor with Hex Colors, and options to modify Hue, Chroma and Saturation.
+2. This tool to [Convert Hex Color to GLSL vec3](https://airtightinteractive.com/util/hex-to-glsl/)
+3. The ability to copy, edit and save the glsl files included in this github.
 
-*Virtual Boy*: Super Bit Shader & Gdapt - Color Blending and Transparency
-
-*Wonderswan*: Super Bit Shader & mixed_frames - Transpareny & Ghosting
-
- *Wonderswan Color*: nds-color & mixed_frames - Color Improvements & Transparency / Ghosting
-
-Be sure to Turn off 60fps mode for Wonderswan / Wonderswan Color, even if your device is only 60fps.
-
-GLSL Shaders Locations: "Dithering" and "Motionblur"
+Guide
+1. First create a color palette in a program of your choosing. This github includes sample sheets for each palette.
+2. When making a Palette keep the light levels around the same as the grayscale templates. Also, use Gentle Gray as the template for Pokemon Mini.
+3. Feel free to experiment with Chroma, Saturation, and Hue. If you are not sure how far to push it take a look at the sample levels in a photo editor.
+4. If your looking for more detail about each console check inside each glsl file for comments.

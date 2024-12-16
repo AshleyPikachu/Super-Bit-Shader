@@ -69,6 +69,6 @@ Prerequisites
 
 Guide
 1. First create a color palette in a program of your choosing. This github includes sample sheets for each palette.
-2. When making a Palette keep the light levels around the same as the grayscale templates (Gentle Gray for Pokemon Mini).
+2. When making a Palette keep the light levels around the same as the gray templates.
 3. Feel free to experiment with Chroma, Saturation, and Hue.
 4. More details are avaliable in each consoles glsl files.

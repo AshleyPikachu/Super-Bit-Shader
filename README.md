@@ -72,3 +72,18 @@ Guide
 2. When making a Palette keep the light levels around the same as the gray templates.
 3. Feel free to experiment with Chroma, Saturation, and Hue.
 4. More details are avaliable in each consoles glsl files.
+
+-----------------------------------------------------------------------------------------------------------------------
+**Mixed Frames Shader Notice**
+-----------------------------------------------------------------------------------------------------------------------
+Why use Mixed-Frames + Install Steps
+1. Mixed-Frames is a default shader inside of Retroarch that allows the Wonderswan / Wonderswan Color to have proper transparency.
+2. There is a Mixed-Frames version of Super-Bit-Shader included in the Wonderswan folder, use them to prevent a dull color palette.
+3. If you do not use the correct version of the shader, mixed-frames dulls the color palette as its pulling from the previous grayscale frame.
+4. Be sure to turn off the 60fps mode in Core Options for a smoother effect.
+5. Also, make sure to append Mixed-Frames after Super-Bit-Shader as the order of shaders is important.
+6. In the case of the Wonderswan Color, I recommend pairing it with Nds-Color with Mixed-Frames instead for a close to hardware look.
+
+**Shader Locations**
+   * Nds-Color can be found in Handheld/Color Folder
+   * Mixed-Frames can be found in the Motion Blur Folder

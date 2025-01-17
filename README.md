@@ -11,7 +11,7 @@ Version: 2.0
 
 -----------------------------------------------------------------------------------------------------------------------
 **Screenshots**
-![Virtual Boy Screenshot!](https://i.imgur.com/fiUjUke.png)
+![Virtual Boy Screenshot!](https://repository-images.githubusercontent.com/759192405/6e1eaa6e-f2f6-417a-b952-391bf7cb2621)
 ![Pokemon Mini Screenshot!](https://i.imgur.com/qhzJsD8.png)
 
 -----------------------------------------------------------------------------------------------------------------------

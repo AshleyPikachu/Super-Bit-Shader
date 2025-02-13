@@ -74,13 +74,19 @@ Guide
 -----------------------------------------------------------------------------------------------------------------------
 **Mixed Frames Shader Notice**
 -----------------------------------------------------------------------------------------------------------------------
-Why use Mixed-Frames + Install Steps
-1. Mixed-Frames is a default shader inside of Retroarch that allows the Wonderswan / Wonderswan Color to have proper transparency.
-2. There is a Mixed-Frames version of Super-Bit-Shader included in the Wonderswan folder, use them to prevent a dull color palette.
-3. If you do not use the correct version of the shader, mixed-frames dulls the color palette as its pulling from the previous grayscale frame.
-4. Be sure to turn off the 60fps mode in Core Options for a smoother effect.
-5. Also, make sure to append Mixed-Frames after Super-Bit-Shader as the order of shaders is important.
-6. In the case of the Wonderswan Color, I recommend pairing it with Nds-Color with Mixed-Frames instead for a close to hardware look.
+**Wonderswan**
+* Mixed-Frames is a default shader inside of Retroarch that allows the Wonderswan / Wonderswan Color to have proper transparency when 60fps is turned off in core options. However, for black and white games the Mixed-Frames dulls the colors of Super-Bit-Shader. To compensate for this be sure to use the mixed-frames version of the shader included with this github.
+
+Shader Order
+1. Super-Bit-Shader Mixed Frames Version
+2. Mixed_Frames
+
+**Wonderswan Color - Bonus**
+* Super-Bit-Shader is not for use with the Wonderswan color, however I still recommend the following shaders below for a more accurate look.
+
+Shader Order
+1. Mixed_frames
+2. nds-color
 
 **Shader Locations**
    * Nds-Color can be found in Handheld/Color Folder

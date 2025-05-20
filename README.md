@@ -1,21 +1,25 @@
-# Super-Bit-Shader
+# Super-Bit-Shader (Version: 3.0)
 -----------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
-Version: 2.0
+Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes. 
+* This code is Public Domain, feel free to use it any way you see fit.
 
 **Supported Consoles**
+* Game Boy (Gambatte / DoubleCherryGB)
 * Neo Geo Pocket (Beetle NeoPop)
 * Pokémon Mini (PokeMini)
 * Virtual Boy (Beetle VB)
 * Wonderswan (Beetle Cygne)
-
 -----------------------------------------------------------------------------------------------------------------------
 **Screenshots**
 ![Virtual Boy Screenshot!](https://repository-images.githubusercontent.com/759192405/6e1eaa6e-f2f6-417a-b952-391bf7cb2621)
+
 -----------------------------------------------------------------------------------------------------------------------
-**Systems that require their Core Options to be adjusted**
+**Required Core Settings**
 -----------------------------------------------------------------------------------------------------------------------
-* Neo Geo Pocket: Default Settings are fine.
+Once a game is loaded, core settings can be found in the Quick Menu inside of Retroarch. Press F1 on PC to get there.
+* Gambatte: GBC - Grayscale
+* DoubleCherryGB: Default
+* Neo Geo Pocket: Default
 * Pokemon Mini: Palette - Black & White
 * Virtual Boy: Palette - Black & White
 * Wonderswan: Color Palette - Grayscale, Color Depth - Thousands (16-bit)
@@ -23,19 +27,13 @@ Version: 2.0
 -----------------------------------------------------------------------------------------------------------------------
 **Credits**
 -----------------------------------------------------------------------------------------------------------------------
-* Original Base Code by hunterk
-* Color Selection by Digiflower5 (AshleyPikachu).
-
-* **Version 1.0**: Testing and calibrating by Digiflower5 (AshleyPikachu) & hunterk.
-* **Version 2.0**: Testing, calibrating, and comments by Digiflower5 (AshleyPikachu)
-
+* **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
+* **Version 2.0-3.0**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
+  
 * Special Thanks to Nispero & EADMASTER for inspiring this project.
 
-**License**
-This code is Public Domain, feel free to use it any way you see fit.
-
 -----------------------------------------------------------------------------------------------------------------------
-**Retroarch PC Guides and Instructions**
+**Retroarch Instructions**
 -----------------------------------------------------------------------------------------------------------------------
 [Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY)
 [Shaders / Shader Passes Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
@@ -58,6 +56,21 @@ This code is Public Domain, feel free to use it any way you see fit.
 13. To remove the shader preset, select "Remove Preset", and press F1 to get back to your game.
 
 -----------------------------------------------------------------------------------------------------------------------
+**Mixed Frames Versions**
+-----------------------------------------------------------------------------------------------------------------------
+"Mixed-Frames" is a shader included Retroarch when downloading shaders from the Online Updater. It's used for transparency on some consoles.
+Be sure to append the shader after loading Super-Bit-Shader first.
+
+**Console Breakdown**
+* Game Boy: Almost never used. Example: "[Chikyuu Kaihou Gun Zas"](https://www.youtube.com/watch?v=2GtKMmhcN1I).
+* Neo Geo Pocket: Unknown, support added if needed.
+* Wonderswan / Wonderswan Color: Recommended for proper [transparency](https://youtu.be/VYXeU9rx_3M?feature=shared&t=3) instead of [flicker](https://youtu.be/l8vZFgilmD4?feature=shared&t=55). Turn off 60fps in Core Settings, for WSC swap out Super-Bit-Shader for "nds-color".
+
+**Shader Locations**
+   * Nds-Color can be found in Handheld/Color Folder
+   * Mixed-Frames can be found in the Motion Blur Folder
+
+-----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
 -----------------------------------------------------------------------------------------------------------------------
 Prerequisites
@@ -67,27 +80,6 @@ Prerequisites
 
 Guide
 1. First create a color palette in a program of your choosing. This github includes sample sheets for each palette.
-2. When making a Palette keep the light levels around the same as the gray templates.
+2. When making a Palette keep the light levels around the same as the grayscale templates.
 3. Feel free to experiment with Chroma, Saturation, and Hue.
 4. More details are avaliable in each consoles glsl files.
-
------------------------------------------------------------------------------------------------------------------------
-**Mixed Frames Shader Notice**
------------------------------------------------------------------------------------------------------------------------
-**Wonderswan**
-* Mixed-Frames is a default shader inside of Retroarch that allows the Wonderswan / Wonderswan Color to have proper transparency when 60fps is turned off in core options. However, for black and white games the Mixed-Frames dulls the colors of Super-Bit-Shader. To compensate for this be sure to use the mixed-frames version of the shader included with this github.
-
-Shader Order
-1. Super-Bit-Shader Mixed Frames Version
-2. Mixed_Frames
-
-**Wonderswan Color - Bonus**
-* Super-Bit-Shader is not for use with the Wonderswan color, however I still recommend the following shaders below for a more accurate look.
-
-Shader Order
-1. Mixed_frames
-2. nds-color
-
-**Shader Locations**
-   * Nds-Color can be found in Handheld/Color Folder
-   * Mixed-Frames can be found in the Motion Blur Folder

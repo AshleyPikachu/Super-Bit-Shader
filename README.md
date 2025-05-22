@@ -74,4 +74,4 @@ Guide
 -----------------------------------------------------------------------------------------------------------------------
 **Extra Notes**
 -----------------------------------------------------------------------------------------------------------------------
-Older releases of Super-Bit-Shader are included on this Github for archival purposes, they are not recommended for use due to newer versions having bug fixes.
+Older releases of Super-Bit-Shader are included on this Github for archival purposes, newer builds have bug fixes / updated color palettes.

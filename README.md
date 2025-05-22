@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------------------------------------------------------
 Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
 * Super-Bit-Shader itself is Public Domain, feel free to use it any way you see fit.
-* The included "mixed-frames.glsl" file works with Super-Bit-Shader, but is not part of it. That shader has been unmodified and has its own seperate "GNU General Public License", check the file for details.
+* The included "mixed-frames.glsl" file works with Super-Bit-Shader, but is not part of it. That shader is part of Retroarch's "Online Updater" and has NOT been modified and has its own seperate "GNU General Public License", check the "mixed-frames.glsl" file for details.
 
 **Supported Consoles**
 * Game Boy (Gambatte / DoubleCherryGB)
@@ -70,3 +70,8 @@ Guide
 2. When making a Palette keep the light levels around the same as the grayscale templates.
 3. Feel free to experiment with Chroma, Saturation, and Hue.
 4. More details are avaliable in each consoles glsl files.
+
+-----------------------------------------------------------------------------------------------------------------------
+**Extra Notes**
+-----------------------------------------------------------------------------------------------------------------------
+Older releases of Super-Bit-Shader are included on this Github for archival purposes, they are not recommended for use due to newer versions having bug fixes.

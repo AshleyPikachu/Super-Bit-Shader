@@ -1,7 +1,8 @@
 # Super-Bit-Shader (Version: 3.0)
 -----------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes. 
-* This code is Public Domain, feel free to use it any way you see fit.
+Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
+* Super-Bit-Shader itself is Public Domain, feel free to use it any way you see fit.
+* The included "mixed-frames.glsl" file works with Super-Bit-Shader, but is not part of it. That shader has been unmodified and has its own seperate "GNU General Public License", check the file for details.
 
 **Supported Consoles**
 * Game Boy (Gambatte / DoubleCherryGB)
@@ -9,20 +10,6 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 * Pokémon Mini (PokeMini)
 * Virtual Boy (Beetle VB)
 * Wonderswan (Beetle Cygne)
------------------------------------------------------------------------------------------------------------------------
-**Screenshots**
-![Virtual Boy Screenshot!](https://repository-images.githubusercontent.com/759192405/6e1eaa6e-f2f6-417a-b952-391bf7cb2621)
-
------------------------------------------------------------------------------------------------------------------------
-**Required Core Settings**
------------------------------------------------------------------------------------------------------------------------
-Once a game is loaded, core settings can be found in the Quick Menu inside of Retroarch. Press F1 on PC to get there.
-* Gambatte: GBC - Grayscale
-* DoubleCherryGB: Default
-* Neo Geo Pocket: Default
-* Pokemon Mini: Palette - Black & White
-* Virtual Boy: Palette - Black & White
-* Wonderswan: Color Palette - Grayscale, Color Depth - Thousands (16-bit)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Credits**
@@ -33,42 +20,42 @@ Once a game is loaded, core settings can be found in the Quick Menu inside of Re
 * Special Thanks to Nispero & EADMASTER for inspiring this project.
 
 -----------------------------------------------------------------------------------------------------------------------
+**Screenshots**
+![Virtual Boy Screenshot!](https://github.com/user-attachments/assets/4b2e42e6-d1cb-4a7f-aee9-a06c09d524ff)
+
+-----------------------------------------------------------------------------------------------------------------------
 **Retroarch Instructions**
 -----------------------------------------------------------------------------------------------------------------------
-[Retroarch Beginners Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY)
-[Shaders / Shader Passes Guide](https://www.youtube.com/watch?v=YyZ6IrmsNgY) 
-
 1. First download and install [Retroarch](https://www.retroarch.com/).
-2. Go into settings and make sure the video is outputting to GL before continuing.
-3. Download the contents of this Github and look inside each folder for the .glsl files you want to use.
-4. Place the glsl files inside the Retroarch Shaders directory.
-
-**Standard Windows Directory**: "C:\RetroArch-Win64\shaders"
-
-5. Launch Retroarch and load the game you want to use the Shader with.
-6. Press F1 to bring up the Retroarch Quick Menu.
-7. With the menu open scroll down to Shaders and select it.
-8. Turn on shaders and scroll down until you see Shader Passes. 
-9. Once found change the Shader Pass from 0 to 1.
-10. Now press enter on "Shader #0" to load the Shaders directory and select the Super-Bit-Shader.
-11. Once your shader is selected press "Apply Changes" to activate the shader.
-12. To keep your shader on the next reboot select "Save Preset" to save this shader to your game or core.
-13. To remove the shader preset, select "Remove Preset", and press F1 to get back to your game.
+2. Familairize yourself with [shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
+3. Download the contents of this Github and place the "Super-Bit-Shader 3.0" folder inside the "Retroarch/Shaders" directory.
+4. Launch a game in Retroarch, and press F1 (PC) to bring up the Retroarch "Quick Menu".
+5. From the "Quick Menu" scroll down to "Shaders" and select the category.
+6. Now choose "Load Preset" and locate the "Super-Bit-Shader 3.0" folder, enter it to see the supported consoles.
+7. Using the Virtual Boy folder as an example select "SBS - Virtual Boy Sunset.glslp" to load the shader.
+8. With the shader all set here is a video guide to [automaticly load your shaders](https://www.youtube.com/watch?v=dZpBRR4DGG0) for the next time you play.
 
 -----------------------------------------------------------------------------------------------------------------------
-**Mixed Frames Versions**
+**Adjusting Core Options**
 -----------------------------------------------------------------------------------------------------------------------
-"Mixed-Frames" is a shader included Retroarch when downloading shaders from the Online Updater. It's used for transparency on some consoles.
-Be sure to append the shader after loading Super-Bit-Shader first.
+Some of thse cores need their "Core Options" adjusted for the shader to display properly. "Core Options" can also be found in the "Quick Menu".
 
-**Console Breakdown**
-* Game Boy: Almost never used. Example: "[Chikyuu Kaihou Gun Zas"](https://www.youtube.com/watch?v=2GtKMmhcN1I).
-* Neo Geo Pocket: Unknown, support added if needed.
-* Wonderswan / Wonderswan Color: Recommended for proper [transparency](https://youtu.be/VYXeU9rx_3M?feature=shared&t=3) instead of [flicker](https://youtu.be/l8vZFgilmD4?feature=shared&t=55). Turn off 60fps in Core Settings, for WSC swap out Super-Bit-Shader for "nds-color".
+* Gambatte: Internal Palette = GBC - Grayscale
+* DoubleCherryGB: Default
+* Neo Geo Pocket: Default
+* Pokemon Mini: Palette = Black & White
+* Virtual Boy Palette = Black & White
+* Wonderswan: Color Palette = Grayscale, Color Depth - Thousands (16-bit), 
 
-**Shader Locations**
-   * Nds-Color can be found in Handheld/Color Folder
-   * Mixed-Frames can be found in the Motion Blur Folder
+-----------------------------------------------------------------------------------------------------------------------
+**Mixed Frames Use Cases**
+-----------------------------------------------------------------------------------------------------------------------
+"Mixed-Frames" is used for transparency and intentional ghosting on some consoles. You want to use the Mixed-Frames optimized versions of SBS for the following scenerios.
+
+* Game Boy: The game uses ghosting to create more effects. Example: "[Chikyuu Kaihou Gun Zas"](https://www.youtube.com/watch?v=2GtKMmhcN1I).
+* Neo Geo Pocket: Unknown, the support was added to cover all bases.
+* Wonderswan: It's for transparency, also turn off "60hz Mode" in "Core Options".
+* Wonderswan Color: Same WS, but use "nds-color" instead of SBS. "nds-color" is located inside Retroarch's Handheld/Color Folder.
 
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**

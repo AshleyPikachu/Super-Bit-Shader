@@ -53,7 +53,7 @@ Some of thse cores need their "Core Options" adjusted for the shader to display 
 "Mixed-Frames" is used for transparency and intentional ghosting on some consoles. Below are use cases.
 
 * Game Boy: Rarely used to create more effects. Games such as "[Chikyuu Kaihou Gun Zas"](https://www.youtube.com/watch?v=2GtKMmhcN1I) use it.
-* Neo Geo Pocket: Unknown, the console is very obscure so support was added on the safe side.
+* Neo Geo Pocket: Unknown, the console is very obscure so support was added to play it safe.
 * Wonderswan: It's for transparency, also turn off "60hz Mode" in "Core Options".
 * Wonderswan Color: Same WS, but use "nds-color" instead of SBS. "nds-color" is located inside Retroarch's Handheld/Color Folder.
 

@@ -27,7 +27,7 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 **Retroarch Instructions**
 -----------------------------------------------------------------------------------------------------------------------
 1. First download and install [Retroarch](https://www.retroarch.com/).
-2. Familairize yourself with [shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
+2. Familairize yourself with [Shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
 3. Download the contents of this Github and place the "Super-Bit-Shader 3.0" folder inside the "Retroarch/Shaders" directory.
 4. Launch a game in Retroarch, and press F1 (PC) to bring up the Retroarch "Quick Menu".
 5. From the "Quick Menu" scroll down to "Shaders" and select the category.
@@ -38,7 +38,7 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 -----------------------------------------------------------------------------------------------------------------------
 **Adjusting Core Options**
 -----------------------------------------------------------------------------------------------------------------------
-Some of thse cores need their "Core Options" adjusted for the shader to display properly. "Core Options" can also be found in the "Quick Menu".
+Some of thse cores need their "Core Options" adjusted for the shader to display properly, it is also be found in the "Quick Menu".
 
 * Gambatte: Internal Palette = GBC - Grayscale
 * DoubleCherryGB: Default
@@ -48,12 +48,12 @@ Some of thse cores need their "Core Options" adjusted for the shader to display 
 * Wonderswan: Color Palette = Grayscale, Color Depth - Thousands (16-bit), 
 
 -----------------------------------------------------------------------------------------------------------------------
-**Mixed Frames Use Cases**
+**Mixed Frames**
 -----------------------------------------------------------------------------------------------------------------------
-"Mixed-Frames" is used for transparency and intentional ghosting on some consoles. You want to use the Mixed-Frames optimized versions of SBS for the following scenerios.
+"Mixed-Frames" is used for transparency and intentional ghosting on some consoles. Below are use cases.
 
-* Game Boy: The game uses ghosting to create more effects. Example: "[Chikyuu Kaihou Gun Zas"](https://www.youtube.com/watch?v=2GtKMmhcN1I).
-* Neo Geo Pocket: Unknown, the support was added to cover all bases.
+* Game Boy: Rarely used to create more effects. Games such as "[Chikyuu Kaihou Gun Zas"](https://www.youtube.com/watch?v=2GtKMmhcN1I) use it.
+* Neo Geo Pocket: Unknown, the console is very obscure so support was added on the safe side.
 * Wonderswan: It's for transparency, also turn off "60hz Mode" in "Core Options".
 * Wonderswan Color: Same WS, but use "nds-color" instead of SBS. "nds-color" is located inside Retroarch's Handheld/Color Folder.
 

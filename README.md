@@ -25,7 +25,7 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 ![Virtual Boy Screenshot!](https://github.com/user-attachments/assets/4b2e42e6-d1cb-4a7f-aee9-a06c09d524ff)
 
 * Neo Geo Pocket
-![image](https://github.com/user-attachments/assets/ebaacbd0-2845-4b2d-a378-7a518fc77468)
+![image](https://github.com/user-attachments/assets/d01e5300-8322-4d21-aec2-1db92b5346c1)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Retroarch Instructions**

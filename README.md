@@ -44,12 +44,12 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 -----------------------------------------------------------------------------------------------------------------------
 Some of thse cores need their "Core Options" adjusted for the shader to display properly, it is also be found in the "Quick Menu".
 
-* Gambatte: GB Colorization = Auto, Internal, or GBC, Internal Palette = GBC - Grayscale
-* DoubleCherryGB: Default
-* Neo Geo Pocket: Default
-* Pokemon Mini: Palette = Black & White
-* Virtual Boy Palette = Black & White
-* Wonderswan: Color Palette = Grayscale, Color Depth - Thousands (16-bit), 
+* Gambatte: GB Colorization = Auto, Internal, or GBC. Internal Palette = GBC - Grayscale.
+* DoubleCherryGB: Default.
+* Neo Geo Pocket: Default.
+* Pokemon Mini: Palette = Black & White.
+* Virtual Boy Palette = Black & White.
+* Wonderswan: Color Palette = Grayscale, Color Depth - Thousands (16-bit).
 
 -----------------------------------------------------------------------------------------------------------------------
 **Mixed Frames**

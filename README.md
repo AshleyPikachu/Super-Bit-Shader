@@ -27,7 +27,7 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 * Virtual Boy - [VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)
 ![image](https://github.com/user-attachments/assets/2d75ece2-f45d-4ead-84f8-a9dc9b19029f)
 
-* Neo Geo Pocket
+* Neo Geo Pocket - My Own Artwork
 ![image](https://github.com/user-attachments/assets/7d9ad104-ebef-4f9b-bd53-485e7a2cd4ef)
 
 * Pokemon Mini - [Cortex](https://www.pokemon-mini.net/games/cortex/)

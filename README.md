@@ -30,6 +30,9 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 * Neo Geo Pocket
 ![image](https://github.com/user-attachments/assets/7d9ad104-ebef-4f9b-bd53-485e7a2cd4ef)
 
+* Pokemon Mini - [Cortex](https://www.pokemon-mini.net/games/cortex/)
+![image](https://github.com/user-attachments/assets/96e81e88-d637-409c-9715-932dfad425aa)
+
 -----------------------------------------------------------------------------------------------------------------------
 **Retroarch Instructions**
 -----------------------------------------------------------------------------------------------------------------------

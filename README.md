@@ -6,16 +6,16 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 
 **Supported Consoles**
 * Game Boy (Gambatte / DoubleCherryGB) - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
-![image](https://github.com/user-attachments/assets/f3039f66-881b-48ed-99dd-a95e46263b2c)
+![image](https://github.com/user-attachments/assets/6b493a3d-9139-429d-90b4-e9d0534f161b)
 
 * Neo Geo Pocket (Beetle NeoPop) - My Own Artwork
-![image](https://github.com/user-attachments/assets/b18a2f0f-9706-4129-8ce4-dd42697af9a9)
+![image](https://github.com/user-attachments/assets/0590a254-e07d-41df-847b-d4563b9d5576)
 
 * Virtual Boy (Beetle VB) - [VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)
 ![image](https://github.com/user-attachments/assets/2d75ece2-f45d-4ead-84f8-a9dc9b19029f)
 
 * Wonderswan (Beetle Cygne) - My Own Artwork
-![image](https://github.com/user-attachments/assets/d4fca2fb-8b06-4432-a792-9fa700538407)
+![image](https://github.com/user-attachments/assets/b13dfe01-a28c-4048-be48-199d694cc297)
 
 * Pokémon Mini (PokeMini) - [Cortex](https://www.pokemon-mini.net/games/cortex/)
 ![image](https://github.com/user-attachments/assets/5b6ab960-aef4-4088-a4ec-6aca12031e4a)

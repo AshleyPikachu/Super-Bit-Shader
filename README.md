@@ -5,11 +5,20 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 * The included "mixed-frames.glsl" file works with Super-Bit-Shader, but is not part of it. That shader is part of Retroarch's "Online Updater" and has NOT been modified. That file has its own seperate "GNU General Public License", check the "mixed-frames.glsl" file for details.
 
 **Supported Consoles**
-* Game Boy (Gambatte / DoubleCherryGB)
-* Neo Geo Pocket (Beetle NeoPop)
-* Pokémon Mini (PokeMini)
-* Virtual Boy (Beetle VB)
-* Wonderswan (Beetle Cygne)
+* Game Boy (Gambatte / DoubleCherryGB) - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
+![image](https://github.com/user-attachments/assets/f3039f66-881b-48ed-99dd-a95e46263b2c)
+
+* Neo Geo Pocket (Beetle NeoPop) - My Own Artwork
+![image](https://github.com/user-attachments/assets/b18a2f0f-9706-4129-8ce4-dd42697af9a9)
+
+* Virtual Boy (Beetle VB) - [VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)
+![image](https://github.com/user-attachments/assets/2d75ece2-f45d-4ead-84f8-a9dc9b19029f)
+
+* Wonderswan (Beetle Cygne) - My Own Artwork
+![image](https://github.com/user-attachments/assets/d4fca2fb-8b06-4432-a792-9fa700538407)
+
+* Pokémon Mini (PokeMini) - [Cortex](https://www.pokemon-mini.net/games/cortex/)
+![image](https://github.com/user-attachments/assets/5b6ab960-aef4-4088-a4ec-6aca12031e4a)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Credits**
@@ -18,20 +27,6 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 * **Version 2.0-3.0**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
   
 * Special Thanks to Nispero & EADMASTER for inspiring this project.
-
------------------------------------------------------------------------------------------------------------------------
-**Screenshots**
-* Game Boy - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
-![image](https://github.com/user-attachments/assets/f3039f66-881b-48ed-99dd-a95e46263b2c)
-
-* Virtual Boy - [VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)
-![image](https://github.com/user-attachments/assets/2d75ece2-f45d-4ead-84f8-a9dc9b19029f)
-
-* Neo Geo Pocket - My Own Artwork
-![image](https://github.com/user-attachments/assets/7d9ad104-ebef-4f9b-bd53-485e7a2cd4ef)
-
-* Pokemon Mini - [Cortex](https://www.pokemon-mini.net/games/cortex/)
-![image](https://github.com/user-attachments/assets/5b6ab960-aef4-4088-a4ec-6aca12031e4a)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Retroarch Instructions**

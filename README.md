@@ -69,7 +69,7 @@ Super-Bit-Shader
 -----------------------------------------------------------------------------------------------------------------------
 **Core Options**
 -----------------------------------------------------------------------------------------------------------------------
-* Gambatte: GB Colorization = Auto, Internal, or GBC. Internal Palette = GBC - Grayscale.
+* Gambatte: GB Colorization = Anything but SGB. Internal Palette = GBC - Grayscale.
 * DoubleCherryGB: Default.
 * Beetle NeoPop / RACE: Default.
 * PokeMini: Palette = Black & White.

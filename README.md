@@ -31,7 +31,7 @@ All seperate supporting shaders included with SBS are from Retroarch's Online Up
 -----------------------------------------------------------------------------------------------------------------------
 * **Regular**: SBS applied to the console of choice with no modifications to the output.
 * **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended for Wonderswan.
-* **SwanCrystal-Real**: GBA-Color instead of SBS, included with all WS presets for Wonderswan Color games. It's on par with the SwanCrystal.
+* **SwanCrystal-Real**: GBA-Color instead of SBS, included with all WS presets for Wonderswan Color games. It's similar to a SwanCrystal.
 * **Pixel-AA**: Anti-Aliasising options included with all consoles for non integer scale displays.
 
 -----------------------------------------------------------------------------------------------------------------------

@@ -23,15 +23,19 @@ All seperate supporting shaders included with SBS are from Retroarch's Online Up
 * "pixel-aa / to_lin" shaders by fishku are Public Domain.
 * "mixed-frames" shader by jdgleaver is GNU General Public License.
 * "gba-color" by Pokefan531 and hunterk is Public Domain.
+* "gbc-color" by Pokefan531 and hunterk is Public Domain.
 
-* Special Thanks to Nispero & EADMASTER for inspiring this project.
+**Special Thanks**
+* Thanks to Nispero & EADMASTER for inspiring this project.
 
 -----------------------------------------------------------------------------------------------------------------------
 **Multiple Shader Versions**
 -----------------------------------------------------------------------------------------------------------------------
+Super-Bit-Shader
 * **Regular**: SBS applied to the console of choice with no modifications to the output.
 * **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended for Wonderswan.
-* **SwanCrystal-Real**: GBA-Color instead of SBS, included with all WS presets for Wonderswan Color games. It's similar to a SwanCrystal.
+* **SwanCrystal - Real**: GBA-Color instead of SBS, included for Wonderswan Color games. It's similar to a SwanCrystal.
+* **Neo Geo Pocket Color - Real**: GBC-Color / GBA-Color instead of SBS, included for Neo Geo Pocket Color games.
 * **Pixel-AA**: Anti-Aliasising options included with all consoles for non integer scale displays.
 
 -----------------------------------------------------------------------------------------------------------------------

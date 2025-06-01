@@ -1,8 +1,12 @@
 # Super-Bit-Shader (Version: 3.0)
 -----------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
-* Super-Bit-Shader itself is Public Domain, feel free to use it any way you see fit.
-* The included "mixed-frames.glsl" file works with Super-Bit-Shader, but is not part of it. That shader is part of Retroarch's "Online Updater" and has NOT been modified. That file has its own seperate "GNU General Public License", check the "mixed-frames.glsl" file for details.
+Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
+
+**Licenses** - Check the GLSL files for full details
+* "Super-Bit-Shader" itself is Public Domain, feel free to use it any way you see fit.
+* "pixel-aa / to_lin" shaders by fishku works with SBS but are not a part of it. It's unmodifed from Retroarch's online updater and is Public Domain.
+* "mixed-frames" shader by jdgleaver works with SBS but is not part of it. It's unmodifed from Retroarch's online updater and is GNU General Public License.
+
 
 **Supported Consoles**
 * Game Boy (Gambatte / DoubleCherryGB) - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
@@ -24,8 +28,7 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 **Credits**
 -----------------------------------------------------------------------------------------------------------------------
 * **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
-* **Version 2.0-3.0**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
-  
+* **Version 2.0-3.0**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu) 
 * Special Thanks to Nispero & EADMASTER for inspiring this project.
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -43,25 +46,21 @@ Super-Bit-Shader is a GLSL Retroarch Pixel Index shader that allows the user to 
 -----------------------------------------------------------------------------------------------------------------------
 **Adjusting Core Options**
 -----------------------------------------------------------------------------------------------------------------------
-Some of thse cores need their "Core Options" adjusted for the shader to display properly, it is also be found in the "Quick Menu".
+Some of thse cores need their "Core Options" adjusted for the shader to display properly. "Core Options" can be located inside the "Quick Menu".
 
 * Gambatte: GB Colorization = Auto, Internal, or GBC. Internal Palette = GBC - Grayscale.
 * DoubleCherryGB: Default.
 * Neo Geo Pocket: Default.
 * Pokemon Mini: Palette = Black & White.
 * Virtual Boy Palette = Black & White.
-* Wonderswan: Color Palette = Grayscale, Color Depth - Thousands (16-bit).
+* Wonderswan: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames version.
 
 -----------------------------------------------------------------------------------------------------------------------
-**Mixed Frames**
+**Multiple Shader Versions**
 -----------------------------------------------------------------------------------------------------------------------
-"Mixed-Frames" is used for transparency and intentional ghosting on some consoles. Below are use cases.
-
-* Game Boy: Rarely used to create more effects. Games such as "[Chikyuu Kaihou Gun Zas"](https://www.youtube.com/watch?v=2GtKMmhcN1I) use it.
-* Neo Geo Pocket: Allows for smoother transprency effects.
-* Wonderswan: It's required for transparency, also turn off "60hz Mode" in "Core Options".
-* Wonderswan Color: Same WS, but use "nds-color" instead of SBS. "nds-color" is located inside Retroarch's Handheld/Color Folder.
-
+* The "Pixel AA" Shader is getting even pixels when interger upscaling is not possible. Think of something like a retro handheld which may not have the right shape.
+* The "Mixed-Frames" shader is for transparency and intentional ghosting on some consoles / games. It is highly recommended for Wonderswan to prevent flicker.
+* For Wonderswan Color check out the "Realistic Wonderswan" Shader.
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
 -----------------------------------------------------------------------------------------------------------------------

@@ -50,8 +50,9 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
 4. Once inside choose your console and shader type, if unsure select "Regular".
-5. IMPORTANT: Pick the "1.namehere.glslp" file to load Super-Bit-Shader. Do not skip this part.
-6. It will look like nothing has changed, but you are ready for the next part.
+5. Pick the "1.namehere.glslp" file to load Super-Bit-Shader. Do not skip this part.
+6. Also, in the shaders directory be sure to toggle on "Remember Last Used Shader Directory".
+7. It will look like nothing has changed, but you are ready for the next part.
 
 **Part 4: Hotkeys to Change Colors**
 1. Leave the shaders menu using backspace (PC) until your all the way back to the "Main Menu".

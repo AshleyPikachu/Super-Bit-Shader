@@ -3,11 +3,11 @@
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes all the press of a hotkey button.
   
 **Supported Consoles**
-* Game Boy / Game Boy Color - CORE: DoubleCherryGB / TGB Dual
-* Neo Geo Pocket / Neo Geo Pocket Color - CORE: Beetle NeoPop / RACE
-* Pokémon Mini - CORE: PokeMini
-* Wonderswan / Wonderswan Color - CORE: Beetle Cygne
-* Virtual Boy - CORE: Beetle VB
+* Game Boy / Game Boy Color (DoubleCherryGB / TGB Dual)
+* Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
+* Pokémon Mini (PokeMini)
+* Wonderswan / Wonderswan Color (Beetle Cygne)
+* Virtual Boy (Beetle VB)
 
 -----------------------------------------------------------------------------------------------------------------------
 **Shader Versions**
@@ -50,7 +50,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
 4. Once inside choose your console and shader type, if unsure select "Regular".
-5. IMPORTANT: Pick the "1. NameOfConsole.glslp" file to load Super-Bit-Shader. Do not skip this part.
+5. IMPORTANT: Pick the "1.namehere.glslp" file to load Super-Bit-Shader. Do not skip this part.
 6. It will look like nothing has changed, but you are ready for the next part.
 
 **Part 4: Hotkeys to Change Colors**

@@ -47,7 +47,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 **Part 3: Loading Super-Bit-Shader**
 1. Load a game inside Retroarch using a supported core above.
-2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll down until you see "Shaders".
+2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
 4. Once inside choose your console and shader type, if unsure select "Regular".
 5. IMPORTANT: Pick the "1. NameOfConsole.glslp" file to load Super-Bit-Shader. Do not skip this part.
@@ -56,7 +56,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 **Part 4: Hotkeys to Change Colors**
 1. Leave the shaders menu using backspace (PC) until your all the way back to the "Main Menu".
 2. Go to "Settings" -> "Input" -> "Hotkeys" -> to Locate "Next Shader" and "Previous Shader".
-3. Set the "Next Shader" hotkey to ZR (Right Trigger) and "Previous Shader" hotkey to ZL (Left Trigger) on a controller.
+3. Set the "Next Shader" hotkey to ZR (R-Trigger) and "Previous Shader" hotkey to ZL (L-Trigger) on a controller.
 4. You are now able to change the shader color at will, and Retroarch will remember these hotkeys.
 
 **Part 5: Core Options**

@@ -1,41 +1,19 @@
-# Super-Bit-Shader (Version: 3.0)
+# Super-Bit-Shader (Version: 3.5)
 -----------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
-All seperate supporting shaders included with SBS are from Retroarch's Online Updater unmodified.
-
+Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes all the press of a hotkey button.
+  
 **Supported Consoles**
-* Game Boy (Gamebatte / DoubleCherryGB)
-* Neo Geo Pocket (Beetle NeoPop / RACE)
-* Virtual Boy (Beetle VB)
-* Pokémon Mini (PokeMini)
-* Wonderswan (Beetle Cygne)
-* Wonderswan Color / SwanCrystal (Beetle Cygne)
+* Game Boy / Game Boy Color - CORE: DoubleCherryGB / TGB Dual
+* Neo Geo Pocket / Neo Geo Pocket Color - CORE: Beetle NeoPop / RACE
+* Pokémon Mini - CORE: PokeMini
+* Wonderswan / Wonderswan Color - CORE: Beetle Cygne
+* Virtual Boy - CORE: Beetle VB
 
 -----------------------------------------------------------------------------------------------------------------------
-**Credits & Licesnes**
+**Shader Versions**
 -----------------------------------------------------------------------------------------------------------------------
-**Credits**
-* **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
-* **Version 2.0-3.0**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu) 
-
-**Licenses** - Check the GLSL files for full details
-* "Super-Bit-Shader" by Ashley the Pikachu (Digiflower5) and hunterk is Public Domain.
-* "pixel-aa / to_lin" shaders by fishku are Public Domain.
-* "mixed-frames" shader by jdgleaver is GNU General Public License.
-* "gba-color" by Pokefan531 and hunterk is Public Domain.
-* "gbc-color" by Pokefan531 and hunterk is Public Domain.
-
-**Special Thanks**
-* Thanks to Nispero & EADMASTER for inspiring this project.
-
------------------------------------------------------------------------------------------------------------------------
-**Multiple Shader Versions**
------------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader
 * **Regular**: SBS applied to the console of choice with no modifications to the output.
 * **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended for Wonderswan.
-* **SwanCrystal - Real**: GBA-Color instead of SBS, included for Wonderswan Color games. It's similar to a SwanCrystal.
-* **Neo Geo Pocket Color - Real**: GBC-Color / GBA-Color instead of SBS, included for Neo Geo Pocket Color games.
 * **Pixel-AA**: Anti-Aliasising options included with all consoles for non integer scale displays.
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -57,24 +35,48 @@ Super-Bit-Shader
 ![image](https://github.com/user-attachments/assets/5b6ab960-aef4-4088-a4ec-6aca12031e4a)
 
 -----------------------------------------------------------------------------------------------------------------------
-**Retroarch Instructions**
+**Install Instructions**
 -----------------------------------------------------------------------------------------------------------------------
+**Part 1: Placing your Files**
 1. First download and install [Retroarch](https://www.retroarch.com/) and familiarize yourself with [Shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
-2. Download the contents of this Github and place the "Super-Bit-Shader 3.0" folder inside the "Retroarch/Shaders" directory.
-3. Launch a game in Retroarch, and press F1 (PC) to bring up the Retroarch "Quick Menu".
-4. From the "Quick Menu" scroll down to "Shaders" and select the category.
-5. Choose "Load Preset" and locate the "Super-Bit-Shader 3.0" folder, inside will be all supported consoles presets.
-6. Select a "glslp" file to load your preset, and follow this guide to [automatically load your shaders](https://www.youtube.com/watch?v=dZpBRR4DGG0) next time.
-7. If the colors or look off be sure to adjust your "Core Options" found in the "Quick Menu". Required adjustments are below.
------------------------------------------------------------------------------------------------------------------------
-**Core Options**
------------------------------------------------------------------------------------------------------------------------
-* Gambatte: GB Colorization = Anything but SGB. Internal Palette = GBC - Grayscale.
-* DoubleCherryGB: Default.
-* Beetle NeoPop / RACE: Default.
+2. Download the contents of this Github and place the "Super-Bit-Shader 3.5" folder inside the "Retroarch/Shaders" folder.
+3. With SBS 3.5 now inside that folder the shader is now ready to be seen by Retroarch.
+
+**Part 2: Preparing Retroarch**
+1. Launch Retroarch and go to the following menus "Settings" -> "Video" -> "Output" -> "Video - Set Video Driver to GL" to use SBS.
+
+**Part 3: Loading Super-Bit-Shader**
+1. Load a game inside Retroarch using a supported core above.
+2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll down until you see "Shaders".
+3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
+4. Once inside choose your console and shader type, if unsure select "Regular".
+5. IMPORTANT: Pick the "1. NameOfConsole.glslp" file to load Super-Bit-Shader. Do not skip this part.
+6. It will look like nothing has changed, but you are ready for the next part.
+
+**Part 4: Hotkeys to Change Colors**
+1. Leave the shaders menu using backspace (PC) until your all the way back to the "Main Menu".
+2. Go to "Settings" -> "Input" -> "Hotkeys" -> to Locate "Next Shader" and "Previous Shader".
+3. Set the "Next Shader" hotkey to ZR (Right Trigger) and "Previous Shader" hotkey to ZL (Left Trigger) on a controller.
+4. You are now able to change the shader color at will, and Retroarch will remember these hotkeys.
+
+**Part 5: Core Options**
+1. Now with your hotkeys set use backspace (PC) again to head back to the "Main Menu".
+2. From the "Main Menu" select "Quick Menu" again and locate "Core Options".
+3. "Core Options" are settings per core, and some of them need to be adjusted for SBS to work.
+4. If you are using TGB Dual, NeoGeo Pop, or RACE you can skip to part 6 as they work out of the box.
+
+**Part 5: Core Options to Modify**
+* DoubleCherryGB: GBC Color Correction "OFF", the shader will handle the GBC color correction.
 * PokeMini: Palette = Black & White.
 * Beetle VB: Palette = Black & White.
 * Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames / high FPS.
+
+**Part 6: SAVE YOUR WORK**
+1. While Retroarch recalls hotkeys automaticly it does not do the same for shaders.
+2. Head back to the "Main Menu" using backspace (PC) and select the "Quick Menu" one last time.
+3. Scroll down to "Overrides" and select it.
+4. Choose "Save Core Overrides" to have Super-Bit-Shader launch every session. This will need to be done per core.
+5. Congratulations, you are all set to use Super-Bit-Shader! Press F1 (PC) to close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
@@ -91,6 +93,23 @@ Guide
 4. More details are available in each consoles glsl files.
 
 -----------------------------------------------------------------------------------------------------------------------
+**Credits**
+-----------------------------------------------------------------------------------------------------------------------
+* **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
+* **Version 2.0-3.5**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
+* **Special Thanks** to Nispero & EADMASTER for inspiring this project.
+
+-----------------------------------------------------------------------------------------------------------------------
+**Licenses** - Check the GLSL files for full details
+-----------------------------------------------------------------------------------------------------------------------
+* "Super-Bit-Shader" by Ashley the Pikachu (Digiflower5) and hunterk is Public Domain.
+* "pixel-aa / to_lin" shaders by fishku are Public Domain.
+* "mixed-frames" shader by jdgleaver is GNU General Public License.
+* "gba-color" by Pokefan531 and hunterk is Public Domain.
+* "gbc-color" by Pokefan531 and hunterk is Public Domain.
+* All seperate supporting shaders included with SBS are from Retroarch's Online Updater unmodified and have their own licenses.
+
+-----------------------------------------------------------------------------------------------------------------------
 **Extra Notes**
 -----------------------------------------------------------------------------------------------------------------------
-Older releases of Super-Bit-Shader are included on this Github for archival purposes, newer builds have bug fixes / updated color palettes.
+* Older releases of Super-Bit-Shader are included on this Github for archival purposes.

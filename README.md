@@ -69,7 +69,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 1. Retroarch on its own will not recall shaders automatically.
 2. Head back to the "Main Menu" using backspace (PC) and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.
-4. Choose "Save Core Overrides" to have Super-Bit-Shader / Hotkeys launch every session. This will need to be done per core.
+4. Choose Save "Game Override" or "Core Override" to have Super-Bit-Shader launch every session.
 5. Congratulations, you are all set to use Super-Bit-Shader! Press F1 (PC) to close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------

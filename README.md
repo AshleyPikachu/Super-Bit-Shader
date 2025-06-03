@@ -15,7 +15,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * **Regular**: SBS applied to the console of choice with no modifications to the output.
 * **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended for Wonderswan.
 * **Pixel-AA**: Anti-Aliasising options included with all consoles for non integer scale displays.
-
+* **Color Console Presets**: These are named "1. NameofConsoleHere.glsp", they enhance GBC, NGPC and WSC.
 -----------------------------------------------------------------------------------------------------------------------
 **Screenshots**
 -----------------------------------------------------------------------------------------------------------------------

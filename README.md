@@ -37,15 +37,15 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 -----------------------------------------------------------------------------------------------------------------------
 **Install Instructions**
 -----------------------------------------------------------------------------------------------------------------------
-**Part 1: Placing your Files**
+🟢**Part 1: Placing your Files**
 1. First download and install [Retroarch](https://www.retroarch.com/) and familiarize yourself with [Shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
 2. Download the contents of this Github and place the "Super-Bit-Shader 3.5" folder inside the "Retroarch/Shaders" folder.
 3. With SBS 3.5 now inside that folder the shader is now ready to be seen by Retroarch.
 
-**Part 2: Preparing Retroarch**
+🟣**Part 2: Preparing Retroarch**
 1. Launch Retroarch and go to the following menus "Settings" -> "Video" -> "Output" -> "Video - Set Video Driver to GL" to use SBS.
 
-**Part 3: Loading Super-Bit-Shader**
+🟠**Part 3: Loading Super-Bit-Shader**
 1. Load a game inside Retroarch using a supported core above.
 2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
@@ -53,19 +53,19 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 5. Pick the shader color of your choice, It's a "GLSLP" file.
 6. You now have your color picked for your game, on to the next part.
 
-**Part 4: Core Options**
+🔵**Part 4: Core Options**
 1. Now with your shader selected use backspace (PC) again to head back to the "Main Menu".
 2. From the "Main Menu" select "Quick Menu" again and locate "Core Options".
 3. "Core Options" are settings per core, and some of them need to be adjusted for SBS to work.
 4. If you are using TGB Dual, NeoGeo Pop, or RACE you can skip to part 5 as they work out of the box.
 
-**Part 4: Core Options to Modify**
+🔵**Part 4: Core Options to Modify**
 * DoubleCherryGB: GBC Color Correction "OFF", the shader will handle the GBC color correction.
 * PokeMini: Palette = Black & White.
 * Beetle VB: Palette = Black & White.
 * Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames / high FPS.
 
-**Part 5: SAVE YOUR WORK**
+🔴**Part 5: SAVE YOUR WORK**
 1. Retroarch on its own will not recall shaders automatically.
 2. Head back to the "Main Menu" using backspace (PC) and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.

@@ -107,3 +107,4 @@ Guide
 **Extra Notes**
 -----------------------------------------------------------------------------------------------------------------------
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
+* Here's a tip: you can use Overrides to set your video driver per core if you need another display driver.

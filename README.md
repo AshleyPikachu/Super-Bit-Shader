@@ -1,6 +1,6 @@
 # Super-Bit-Shader (Version: 3.5)
 -----------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes all the press of a hotkey button.
+Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
   
 **Supported Consoles**
 * Game Boy / Game Boy Color (DoubleCherryGB / TGB Dual)
@@ -50,30 +50,23 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
 4. Once inside choose your console and shader type, if unsure select "Regular".
-5. Pick the "1.namehere.glslp" file to load Super-Bit-Shader. Do not skip this part.
-6. Also, in the shaders directory be sure to toggle on "Remember Last Used Shader Directory".
-7. It will look like nothing has changed, but you are ready for the next part.
+5. Pick the shader color of your choice, It's a "GLSLP" file.
+6. You now have your color picked for your game, on to the next part.
 
-**Part 4: Hotkeys to Change Colors**
-1. Leave the shaders menu using backspace (PC) until your all the way back to the "Main Menu".
-2. Go to "Settings" -> "Input" -> "Hotkeys" -> to Locate "Next Shader" and "Previous Shader".
-3. Set the "Next Shader" hotkey to ZR (R-Trigger) and "Previous Shader" hotkey to ZL (L-Trigger) on a controller.
-4. You are now able to change the shader color at will.
-
-**Part 5: Core Options**
-1. Now with your hotkeys set use backspace (PC) again to head back to the "Main Menu".
+**Part 4: Core Options**
+1. Now with your shader selected use backspace (PC) again to head back to the "Main Menu".
 2. From the "Main Menu" select "Quick Menu" again and locate "Core Options".
 3. "Core Options" are settings per core, and some of them need to be adjusted for SBS to work.
-4. If you are using TGB Dual, NeoGeo Pop, or RACE you can skip to part 6 as they work out of the box.
+4. If you are using TGB Dual, NeoGeo Pop, or RACE you can skip to part 5 as they work out of the box.
 
-**Part 5: Core Options to Modify**
+**Part 4: Core Options to Modify**
 * DoubleCherryGB: GBC Color Correction "OFF", the shader will handle the GBC color correction.
 * PokeMini: Palette = Black & White.
 * Beetle VB: Palette = Black & White.
 * Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames / high FPS.
 
-**Part 6: SAVE YOUR WORK**
-1. Retroarch on its own will not recal shaders and hotkeys automaticly.
+**Part 5: SAVE YOUR WORK**
+1. Retroarch on its own will not recall shaders automatically.
 2. Head back to the "Main Menu" using backspace (PC) and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.
 4. Choose "Save Core Overrides" to have Super-Bit-Shader / Hotkeys launch every session. This will need to be done per core.

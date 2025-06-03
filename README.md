@@ -65,7 +65,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * Beetle VB: Palette = Black & White.
 * Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames / high FPS.
 
-🔴**Part 5: SAVE YOUR WORK**
+🟡**Part 5: SAVE YOUR WORK**
 1. Retroarch on its own will not recall shaders automatically.
 2. Head back to the "Main Menu" using backspace (PC) and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.

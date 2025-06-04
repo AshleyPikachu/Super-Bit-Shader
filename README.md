@@ -1,4 +1,4 @@
-# Super-Bit-Shader (Version: 3.5)
+# Super-Bit-Shader
 -----------------------------------------------------------------------------------------------------------------------
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes.
   

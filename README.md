@@ -13,7 +13,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 **Shader Versions**
 -----------------------------------------------------------------------------------------------------------------------
 * **Regular**: SBS applied to the console of choice with no modifications to the output.
-* **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended for Wonderswan.
+* **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended as the default.
 * **Pixel-AA**: Anti-Aliasising options included with all consoles for non integer scale displays.
 * **Color Console Presets**: "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" should be assigned as a "Core Override".
 -----------------------------------------------------------------------------------------------------------------------
@@ -49,7 +49,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 1. Load a game inside Retroarch using a supported core above.
 2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
-4. Once inside choose your console and shader type, if unsure select "Regular".
+4. Once inside choose your console and shader type, if unsure select "Mixed-Frames".
 5. Pick the shader color of your choice, It's a "GLSLP" file.
 6. You now have your color picked for your game, on to the next part.
 

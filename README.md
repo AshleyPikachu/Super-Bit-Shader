@@ -57,10 +57,9 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 1. Now with your shader selected use backspace (PC) again to head back to the "Main Menu".
 2. From the "Main Menu" select "Quick Menu" again and locate "Core Options".
 3. "Core Options" are settings per core, and some of them need to be adjusted for SBS to work.
-4. If you are using TGB Dual, NeoGeo Pop, or RACE you can skip to part 5 as they work out of the box.
 
 🔵**Part 4: Core Options to Modify**
-* DoubleCherryGB: GBC Color Correction "OFF", the shader will handle the GBC color correction.
+* DoubleCherryGB: GBC Color Correction "OFF", use "1. Game Boy Color." for GBC color correction.
 * PokeMini: Palette = Black & White.
 * Beetle VB: Palette = Black & White.
 * Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames / high FPS.

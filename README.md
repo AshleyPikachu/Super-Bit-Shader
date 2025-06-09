@@ -69,7 +69,8 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 2. Head back to the "Main Menu" using backspace (PC) and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.
 4. Choose Save "Game Override" or "Core Override" to have Super-Bit-Shader launch every session.
-5. Congratulations, you are all set to use Super-Bit-Shader! Press F1 (PC) to close the Retroarch menu and get back to the game.
+5. Use "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" as those consoles "Core Override". 
+6. Congratulations, you are all set to use Super-Bit-Shader! Press F1 (PC) to close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**

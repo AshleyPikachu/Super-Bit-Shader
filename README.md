@@ -9,6 +9,9 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * Wonderswan / Wonderswan Color (Beetle Cygne)
 * Virtual Boy (Beetle VB)
 
+**Paritally Supported Cores**
+* Game Boy / Game Boy Color (SameBoy)
+
 -----------------------------------------------------------------------------------------------------------------------
 **Shader Versions**
 -----------------------------------------------------------------------------------------------------------------------
@@ -59,7 +62,8 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 3. "Core Options" are settings per core, and some of them need to be adjusted for SBS to work.
 
 🔵**Part 4: Core Options to Modify**
-* DoubleCherryGB: GBC Color Correction "OFF", use "1. Game Boy Color." for GBC color correction.
+* DoubleCherryGB: GBC Color Correction "OFF", then use "1. Game Boy Color." for GBC color correction.
+* SameBoy: Only use the "1. Game Boy Color" preset. Set GBC Color Correction "OFF".
 * PokeMini: Palette = Black & White.
 * Beetle VB: Palette = Black & White.
 * Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames / high FPS.

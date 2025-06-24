@@ -82,24 +82,25 @@ PCVR Setup - Virtual Boy
 🟠**Prerequisites**
 1. A VR headset paired to a PC
 2. A controller paired to your PC.
-3. Bigscreen Beta Experience. [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/).
+3. A Super-Bit-Shader color palette has been selected and saved as a "Core Preset" already.
+4. Bigscreen Beta Experience. [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/).
 
 🟠**Setting Up Retroarch**
 1. Create a shortcut to Retroarch on your desktop and open it.
-2. Start a Virtual Boy game and go into "Core Options" to set the "3D Mode" to Side-by-Side.
+2. Start a Virtual Boy game and go into "Core Options" to set the "3D Mode" to "Side-by-Side".
 3. Go all the way back to the "Main Menu" and select "Settings" below it.
 4. From "Settings" pick "Video" -> "Scaling" -> "Integer Scale ON" -> "Aspect Ratio 16:9".
-5. Now backout of Video from "Settings" and select "Input", once there proceed to "Hotkeys".
-6. In "Hotkeys" look for "Menu Toggle (Controller Combo)", set it to "L3 + R3", this will open the Retroarch Menu without a keyboard.
+5. Now backout of "Video" from "Settings" and select "Input", once there proceed to "Hotkeys".
+6. In "Hotkeys" look for "Menu Toggle (Controller Combo)", set it to "L3 + R3".
 7. Finally return to the "Quick Menu" and Save these changes as a "Core Override" and close your game.
 
 🟠**Using Retroarch in VR**
 1. Put your PC controller in arms reach so you can grab it with the headset on.
 2. Inside VR launch Bigscreen, a wired connection will show your desktop on automatically.
 3. Choose your Environment, I recommend the "Retro Cinema" for eye comfort.
-4. Now using the VR controllers as pointers launch Retroarch.
-5. Load a Virtual Boy Game using the PC controller and put the controller in your lap.
-6. Grab your VR controller, go into the Bigscreen menu press "My Room" and go to the "Desktop" category.
+4. Now using the VR controllers as pointers launch Retroarch then put down your VR controllers.
+5. Load a Virtual Boy Game using the PC controller and put the PC controller in your lap.
+6. Grab your VR controllers and go into the Bigscreen menu. From there press "My Room" and go to the "Desktop" category.
 8. Inside "Desktop" you will find a "2D" button, press it until it says "SBS" for Side by Side 3D.
 9. You are now ready to play Virtual Boy in 3D, be sure to turn off SBS before re-entering the Retroarch Menu.
 

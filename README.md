@@ -98,8 +98,8 @@ PCVR Setup - Virtual Boy
 1. Put your PC controller in arms reach so you can grab it with the headset on.
 2. Inside VR launch Bigscreen, a wired connection will show your desktop on automatically.
 3. Choose your Environment, I recommend the "Retro Cinema" for eye comfort.
-4. Now using the VR controllers as pointers launch Retroarch then put down your VR controllers.
-5. Load a Virtual Boy Game using the PC controller and put the PC controller in your lap.
+4. Now using the VR controllers as pointers launch Retroarch then let go of your VR controllers.
+5. Load a Virtual Boy game using the PC controller and put the PC controller in your lap.
 6. Grab your VR controllers and go into the Bigscreen menu. From there press "My Room" and go to the "Desktop" category.
 8. Inside "Desktop" you will find a "2D" button, press it until it says "SBS" for Side by Side 3D.
 9. You are now ready to play Virtual Boy in 3D, be sure to turn off SBS before re-entering the Retroarch Menu.

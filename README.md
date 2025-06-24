@@ -79,13 +79,13 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 -----------------------------------------------------------------------------------------------------------------------
 PCVR Setup - Virtual Boy
 -----------------------------------------------------------------------------------------------------------------------
-🟠**Prerequisites**
+🔴**Prerequisites**
 1. A VR headset paired to a PC
 2. A controller paired to your PC.
 3. A Super-Bit-Shader color palette has been selected and saved as a "Core Preset" already.
 4. Bigscreen Beta Experience. [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/).
 
-🟠**Setting Up Retroarch**
+🔴**Setting Up Retroarch**
 1. Create a shortcut to Retroarch on your desktop and open it.
 2. Start a Virtual Boy game and go into "Core Options" to set the "3D Mode" to "Side-by-Side".
 3. Go all the way back to the "Main Menu" and select "Settings" below it.
@@ -94,7 +94,7 @@ PCVR Setup - Virtual Boy
 6. In "Hotkeys" look for "Menu Toggle (Controller Combo)", set it to "L3 + R3".
 7. Finally return to the "Quick Menu" and Save these changes as a "Core Override" and close your game.
 
-🟠**Using Retroarch in VR**
+🔴**Using Retroarch in VR**
 1. Put your PC controller in arms reach so you can grab it with the headset on.
 2. Inside VR launch Bigscreen, a wired connection will show your desktop on automatically.
 3. Choose your Environment, I recommend the "Retro Cinema" for eye comfort.

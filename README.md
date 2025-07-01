@@ -113,7 +113,7 @@ Google Cardboard Setup - Virtual Boy
 1. A smartphone with Bluetooth
 2. A wireless controller paired to your device ahead of time.
 3. A Super-Bit-Shader color palette selected ahead of time.
-4. A Google Cardboard Compatiable Headset.
+4. A Google Cardboard compatible headset.
 
 🔵**Setting Up Retroarch** - Touch UI
 1. Install Retroarch on your smartphone and launch it.

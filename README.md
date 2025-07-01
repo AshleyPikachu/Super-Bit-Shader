@@ -109,13 +109,13 @@ PCVR Setup - Virtual Boy
 -----------------------------------------------------------------------------------------------------------------------
 Google Cardboard
 -----------------------------------------------------------------------------------------------------------------------
-🔴**Prerequisites**
+🔵**Prerequisites**
 1. A smartphone with Bluetooth
 2. A wireless controller paired to your device ahead of time.
 3. A Super-Bit-Shader color palette selected ahead of time.
 4. A Google Cardboard Unit.
 
-🔴**Setting Up Retroarch** - Touch UI
+🔵**Setting Up Retroarch** - Touch UI
 1. Install Retroarch on your smartphone and launch it.
 2. Start a Virtual Boy game, and using the touchscreen return to the "Quick Menu".
 3. Locate "On-Screen Overlay" and toggle "Display Overlay" to off.

@@ -129,7 +129,7 @@ Google Cardboard Setup - Virtual Boy
 12. Now reboot the program and load your game of choice to play.
 13. Finally with the game running and a controller paired ahead of time, put the phone in the Google Cardboard to play.
 
-**NOTE**: Retroarch does not appear to have Interpupillary Distance (IPD) adjustment options, so its very important your Google Cardboard is specificly fitted or the phones position itself can be adjusted.
+**NOTE**: Retroarch does not appear to have Interpupillary Distance (IPD) adjustment options, so its very important your Google Cardboard is specificly fitted Retroarch or the phones position itself can be adjusted.
 
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**

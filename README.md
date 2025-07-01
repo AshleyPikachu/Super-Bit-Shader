@@ -82,7 +82,7 @@ PCVR Setup - Virtual Boy
 🔴**Prerequisites**
 1. A VR headset paired to a PC
 2. A controller paired to your PC.
-3. A Super-Bit-Shader color palette being selected ahead of time.
+3. A Super-Bit-Shader color palette selected ahead of time.
 4. Bigscreen Beta Experience. [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/).
 
 🔴**Setting Up Retroarch**
@@ -105,6 +105,31 @@ PCVR Setup - Virtual Boy
 9. You are now ready to play Virtual Boy in 3D, be sure to turn off SBS before re-entering the Retroarch Menu.
 
 ![image](https://github.com/user-attachments/assets/db362941-c020-41bb-b3e4-72bbdab7de92)
+
+-----------------------------------------------------------------------------------------------------------------------
+Google Cardboard
+-----------------------------------------------------------------------------------------------------------------------
+🔴**Prerequisites**
+1. A smartphone with Bluetooth
+2. A wireless controller paired to your device ahead of time.
+3. A Super-Bit-Shader color palette selected ahead of time.
+4. A Google Cardboard Unit.
+
+🔴**Setting Up Retroarch** - Touch UI
+1. Install Retroarch on your smartphone and launch it.
+2. Start a Virtual Boy game, and using the touchscreen return to the "Quick Menu".
+3. Locate "On-Screen Overlay" and toggle "Display Overlay" to off.
+4. Now press the Settings Gear to enter "Settings".
+5. In "Settings" pick "Input" and once there proceed to "Hotkeys".
+6. In "Hotkeys" look for "Menu Toggle (Controller Combo)", set it to "L3 + R3".
+7. Next press the Home icon to return to the "Main Menu" and select "Quick Menu" again.
+8. Inside "Quick Menu" select "Core Options" and set the "3D Mode" to "Side-by-Side".
+10. From "Quick Menu" save these changes as a "Core Override" and head back to the "Main Menu".
+11. From the "Main Menu" press the "Quit" button to properly close Retroarch to save your work.
+12. Now reboot the program and load your game of choice to play.
+13. Finally with the game running and a controller paired ahead of time, put the phone in the Google Cardboard to play.
+
+**NOTE**: Retroarch does not appear to have Interpupillary Distance (IPD) adjustment options, so its very important your Google Cardboard is specificly fitted or the phones position itself can be adjusted.
 
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**

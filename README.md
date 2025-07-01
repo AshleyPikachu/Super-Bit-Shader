@@ -107,7 +107,7 @@ PCVR Setup - Virtual Boy
 ![image](https://github.com/user-attachments/assets/db362941-c020-41bb-b3e4-72bbdab7de92)
 
 -----------------------------------------------------------------------------------------------------------------------
-Google Cardboard
+Google Cardboard Setup - Virtual Boy
 -----------------------------------------------------------------------------------------------------------------------
 🔵**Prerequisites**
 1. A smartphone with Bluetooth

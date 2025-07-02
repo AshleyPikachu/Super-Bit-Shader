@@ -95,7 +95,7 @@ PCVR Setup - Virtual Boy
 7. Finally return to the "Quick Menu" and Save these changes as a "Core Override" and close your game.
 
 🔴**Using Retroarch in VR**
-1. Put your PC controller in arms reach so you can grab it with the headset on.
+1. Put your PC / Wireless controller in arms reach so you can grab it with the headset on.
 2. Inside VR launch Bigscreen, a wired connection will show your desktop on automatically.
 3. Choose your Environment, I recommend the "Retro Cinema" for eye comfort.
 4. Now using the VR controllers as pointers launch Retroarch then let go of your VR controllers.

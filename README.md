@@ -81,7 +81,7 @@ PCVR Setup - Virtual Boy
 -----------------------------------------------------------------------------------------------------------------------
 🔴**Prerequisites**
 1. A VR headset paired to a PC
-2. A controller paired to your PC.
+2. A controller connected to your PC / A wireless controller connected to your VR headset
 3. A Super-Bit-Shader color palette selected ahead of time.
 4. Bigscreen Beta Experience. [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/).
 

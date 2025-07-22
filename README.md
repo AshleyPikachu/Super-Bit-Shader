@@ -29,7 +29,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 ![image](https://github.com/user-attachments/assets/0590a254-e07d-41df-847b-d4563b9d5576)
 
 * Virtual Boy [VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)
-![image](https://github.com/user-attachments/assets/2d75ece2-f45d-4ead-84f8-a9dc9b19029f)
+![image](https://github.com/user-attachments/assets/f1ffd0a5-73f1-420b-b7ae-e844013211ce)
 
 * Wonderswan - My Own Artwork
 ![image](https://github.com/user-attachments/assets/b13dfe01-a28c-4048-be48-199d694cc297)

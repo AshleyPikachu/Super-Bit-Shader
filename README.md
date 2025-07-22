@@ -181,6 +181,7 @@ Guide
 * "mixed-frames" shader by jdgleaver is GNU General Public License.
 * "gba-color" by Pokefan531 and hunterk is Public Domain.
 * "gbc-color" by Pokefan531 and hunterk is Public Domain.
+* "gdapt" by Sp00kyFox does not have a license listed.
 * All seperate supporting shaders included with SBS are from Retroarch's Online Updater unmodified and have their own licenses.
 
 -----------------------------------------------------------------------------------------------------------------------

@@ -152,6 +152,8 @@ Keep in mind when this entire file is replaced it wipes any preconfigured conten
 * tintscale2=1.425000
 * tintscale3=2.000000
 
+Note: If you want to use all 3 color palettes, you need to save the preset as a game one.
+
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
 -----------------------------------------------------------------------------------------------------------------------

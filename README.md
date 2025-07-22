@@ -132,6 +132,27 @@ Google Cardboard Setup - Virtual Boy
 **NOTE**: "Core Options" cannot adjust Interpupillary Distance (IPD), make sure your Google Cardboard is fitted for Retroarch or the phone the can be adjusted.
 
 -----------------------------------------------------------------------------------------------------------------------
+🐍Red-Viper
+-----------------------------------------------------------------------------------------------------------------------
+[Red-Viper](https://github.com/skyfloogle/red-viper) is a Virtual Boy Emulator for the 3DS by SkyFloogle.
+
+The program just got color palette support, to use it replace the included "rv_config.ini" file with a color palette of your choice.
+* Directory: "RootofSD\config\red-viper"
+
+Keep in mind when this entire file is replaced it wipes any preconfigured content. If you don't want to do that open up the ini file inside of a notepad program and replace the following lines.
+
+* [vbopt]
+* multicol=1
+* tint=-1
+* multitint0=-15986688
+* multitint1=-74240
+* multitint2=-10289724
+* multitint3=-5571585
+* tintscale1=2.000000
+* tintscale2=1.425000
+* tintscale3=2.000000
+
+-----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
 -----------------------------------------------------------------------------------------------------------------------
 Prerequisites

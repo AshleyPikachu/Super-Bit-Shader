@@ -152,8 +152,10 @@ Keep in mind when this entire file is replaced it wipes any preconfigured conten
 * tintscale2=1.425000
 * tintscale3=2.000000
 
-Note: If you want to use all 3 color palettes, you need to save the preset as a game one.
-
+Tips & Tricks
+1. If you want to use all color palettes, you need to save the global preset per game one, its best to plan ahead.
+2. There are "Light Games" and "Dark Games" versions to replicate SBS's 16-bit color palette.
+3. Light is the default and looks good with most titles. Dark is recommended for dimmer games.
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
 -----------------------------------------------------------------------------------------------------------------------

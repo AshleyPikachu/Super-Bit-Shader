@@ -76,7 +76,7 @@ PCVR Setup - Virtual Boy (A Controller & Bigscreen Beta Required)
 1. With Super-Bit-Shader setup, create a desktop shortcut for Retroarch to make it easy to open in VR.
 2. Start a Virtual Boy game and inside "Core Options" to set the "3D Mode" to "Side-by-Side".
 3. Go back to the "Main Menu" and select "Settings" below it.
-4. From "Settings" pick "Input" then proceed to "Hotkeys". Now look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
+4. From "Settings" pick "Input" proceed to "Hotkeys", look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
 6. Return to the "Quick Menu" and save these changes as a "Core Override" and close Retroarch.
 
 🔴**Using Retroarch in VR**

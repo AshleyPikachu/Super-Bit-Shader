@@ -46,9 +46,9 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 3. Download a release version and place the "Retroarch.SBS.3.5.1" folder inside the "Retroarch/Shaders" directory.
 4. Now is now ready to be seen by Retroarch.
 
-🟠**Part 2: Loading Super-Bit-Shader** - Keyboard Instructions
+🟠**Part 2: Loading Super-Bit-Shader**
 1. Load a game inside Retroarch using a supported core above.
-2. With the game loaded press the F1 key to bring up the "Quick Menu", from there scroll to "Shaders".
+2. With the game loaded bring up the Retroarch "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to interact with the "Retroarch.SBS.3.5.1" folder.
 4. Once inside the folder choose your console and shader type, if unsure select "Mixed-Frames".
 5. Pick "GLSLP" file that is the shader color of your choice.
@@ -66,7 +66,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.
 4. Choose Save "Core Override" or "Game Override" to have Super-Bit-Shader launch every session.
-5. Congratulations, you are all set! Press F1 to close the Retroarch menu and get back to the game.
+5. Congratulations, you are all set! Close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
 PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
@@ -88,7 +88,7 @@ PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
 7. You are now ready to play Virtual Boy.
 
 -----------------------------------------------------------------------------------------------------------------------
-Google Cardboard - Virtual Boy (A controller & Smartphone Required)
+Google Cardboard - Virtual Boy (A Controller & Smartphone Required)
 -----------------------------------------------------------------------------------------------------------------------
 🔵**Setting Up Retroarch**
 1. With Super-Bit-Shader setup, start a Virtual Boy game.

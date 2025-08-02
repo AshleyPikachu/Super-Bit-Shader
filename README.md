@@ -81,7 +81,7 @@ PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
 
 🔴**Using Retroarch in VR**
 1. With your regular controller in reach, enter VR by launching an app called Bigscreen Beta. It can be the [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/) version.
-2. A wired connection will automatically show your desktop, if your using Wireless setup the "[Remote Desktop](https://www.bigscreenvr.com/remotedesktop/?modestbranding=1&autoplay=1)" app outside of this guide.
+2. Wired connections automatically show your desktop, if you use wireless setup "[Remote Desktop](https://www.bigscreenvr.com/remotedesktop/?modestbranding=1&autoplay=1)" outside of this guide.
 3. Using the VR controllers a pointer launch Retroarch and use your regular controller to navigate it.
 4. Load a Virtual Boy game and put the regular controller down.
 5. With VR controllers go into the Bigscreen's menu and press "My Room" to locate to the "Desktop" category.

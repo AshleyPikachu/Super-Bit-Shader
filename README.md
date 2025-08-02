@@ -89,7 +89,7 @@ PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
 7. You are now ready to play Virtual Boy.
 
 -----------------------------------------------------------------------------------------------------------------------
-Google Cardboard - Virtual Boy (A controller & Bluetotooth Smarphone Required)
+Google Cardboard - Virtual Boy (A controller & Smartphone Required)
 -----------------------------------------------------------------------------------------------------------------------
 🔵**Setting Up Retroarch**
 1. With Super-Bit-Shader setup, start a Virtual Boy game.

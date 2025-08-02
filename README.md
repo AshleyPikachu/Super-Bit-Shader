@@ -60,7 +60,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 * DoubleCherryGB & SameBoy: Set GBC Color Correction to "OFF".
 * PokeMini & Beetle VB: Set the Palette: "Black & White".
-* Beetle Cygne: Color Palette = "Grayscale", "Color Depth - Thousands (16-bit)". "60hz Mode off" when Mixed-Frames.
+* Beetle Cygne: Color Palette: "Grayscale", "Color Depth-Thousands (16-bit)". "60hz Mode off" when Mixed-Frames.
 
 🟡**Part 5: SAVE YOUR WORK**
 1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.

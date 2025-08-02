@@ -13,13 +13,6 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * Game Boy / Game Boy Color (SameBoy) - Game Boy Color and Super Game Boy Games
 
 -----------------------------------------------------------------------------------------------------------------------
-**Shader Versions**
------------------------------------------------------------------------------------------------------------------------
-* **Regular**: SBS applied to the console of choice with no modifications to the output.
-* **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended as the default.
-* **Pixel-AA**: Anti-Aliasising options included with all consoles for non integer scale displays.
-* **Color Console Presets**: "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" should be assigned as a "Core Override".
------------------------------------------------------------------------------------------------------------------------
 **Screenshots**
 -----------------------------------------------------------------------------------------------------------------------
 * Game Boy - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
@@ -69,6 +62,23 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 5. Congratulations, you are all set! Close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
+**Shader Versions**
+-----------------------------------------------------------------------------------------------------------------------
+* **Regular**: SBS applied to the console of choice with no modifications to the output.
+* **Mixed-Frames**: SBS + Mixed-Frames, use this for intentional ghosting / transparency. Highly recommended as the default.
+* **Pixel-AA**: Anti-Aliasising options included with all consoles for non integer scale displays.
+* **Color Console Presets**: "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" should be assigned as a "Core Override".
+
+-----------------------------------------------------------------------------------------------------------------------
+🐍Red-Viper (3DS Required)
+-----------------------------------------------------------------------------------------------------------------------
+[Red-Viper](https://github.com/skyfloogle/red-viper) is a Virtual Boy Emulator for the 3DS by SkyFloogle.
+
+🟢**Setting Up Red-Viper**
+1. Replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
+* Directory: "RootofSD\config\red-viper"
+
+-----------------------------------------------------------------------------------------------------------------------
 PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
 -----------------------------------------------------------------------------------------------------------------------
 🔴**Setting Up Retroarch for VR**
@@ -100,15 +110,6 @@ Google Cardboard - Virtual Boy (A Controller & Smartphone Required)
 7. Now reboot the program and load your game and put the phone inside the Google Cardboard.
 
 **NOTE**: "Core Options" cannot adjust Interpupillary Distance (IPD), make sure your Google Cardboard is fitted for Retroarch.
-
------------------------------------------------------------------------------------------------------------------------
-🐍Red-Viper (3DS Required)
------------------------------------------------------------------------------------------------------------------------
-[Red-Viper](https://github.com/skyfloogle/red-viper) is a Virtual Boy Emulator for the 3DS by SkyFloogle.
-
-🟢**Setting Up Red-Viper**
-1. Replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
-* Directory: "RootofSD\config\red-viper"
 
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**

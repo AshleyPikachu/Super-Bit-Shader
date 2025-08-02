@@ -67,7 +67,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * **Regular**: SBS applied to the handheld with no modifications to the output.
 * **Mixed-Frames**: SBS + Mixed-Frames. It used to prevent flicker and is the recommended as the default.
 * **Pixel-AA**: Anti-Aliasising option for non integerscale displays.
-* **Color Handheld Presets**: "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" should be assigned as a "Core Override" for color system like the Wonderswan Color.
+* **Color Handheld Presets**: "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" should be assigned as a "Core Override" for handhelds like the Game Boy Color, Neo Geo Pocket Color, and Wonderswan Color with monochrome games being a "Game Override".
 
 -----------------------------------------------------------------------------------------------------------------------
 🐍Red-Viper (3DS Required)

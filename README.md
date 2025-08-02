@@ -129,7 +129,7 @@ Guide
 **Credits**
 -----------------------------------------------------------------------------------------------------------------------
 * **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
-* **Version 2.0-3.5**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
+* **Version 2.0-3.5.X**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
 * **Special Thanks** to Nispero & EADMASTER for inspiring this project. Also thank you SkyFloogle for helping me read the Red-Viper config.
 
 -----------------------------------------------------------------------------------------------------------------------

@@ -70,13 +70,13 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * **Color Handheld Presets**: "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" should be assigned as a "Core Override" for those handhelds with monochrome games being a "Game Override".
 
 -----------------------------------------------------------------------------------------------------------------------
-🐍Red-Viper (3DS Required)
+🐍[Red-Viper](https://github.com/skyfloogle/red-viper) (3DS Required)
 -----------------------------------------------------------------------------------------------------------------------
-[Red-Viper](https://github.com/skyfloogle/red-viper) is a Virtual Boy Emulator for the 3DS by SkyFloogle.
-
 🟢**Setting Up Red-Viper**
-1. Replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
+1. This is a Virtual Boy Emulator for the 3DS by SkyFloogle.
+2. Replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
 * Directory: "RootofSD\config\red-viper"
+3. You are now all set to use Red-Viper and can choose your palettes in the emulator.
 
 -----------------------------------------------------------------------------------------------------------------------
 PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
@@ -130,7 +130,7 @@ Guide
 -----------------------------------------------------------------------------------------------------------------------
 * **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
 * **Version 2.0-3.5**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
-* **Special Thanks** to Nispero & EADMASTER for inspiring this project. Also thank you Floogle for helping me read the Red-Viper config files.
+* **Special Thanks** to Nispero & EADMASTER for inspiring this project. Also thank you SkyFloogle for helping me read the Red-Viper config.
 
 -----------------------------------------------------------------------------------------------------------------------
 **Licenses** - Check the GLSL files for full details

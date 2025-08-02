@@ -66,8 +66,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.
 4. Choose Save "Core Override" or "Game Override" to have Super-Bit-Shader launch every session.
-5. Use "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" as "Core Overrides". 
-6. Congratulations, you are all set! Press F1 to close the Retroarch menu and get back to the game.
+5. Congratulations, you are all set! Press F1 to close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
 PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
@@ -97,7 +96,7 @@ Google Cardboard - Virtual Boy (A controller & Smartphone Required)
 3. From "Settings" pick "Input" goto "Hotkeys", look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
 4. Next return to the "Main Menu" and enter the "Quick Menu" again.
 5. From there select "Core Options" and set the "3D Mode" to "Side-by-Side".
-6. Save changes as a "Core Override" and go back to the "Main Menu" to properly "Quit" Retroarch to save your work.
+6. Save changes as a "Core Override", go back to the "Main Menu" to properly "Quit" Retroarch to save your work.
 7. Now reboot the program and load your game and put the phone inside the Google Cardboard.
 
 **NOTE**: "Core Options" cannot adjust Interpupillary Distance (IPD), make sure your Google Cardboard is fitted for Retroarch.

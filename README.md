@@ -94,20 +94,21 @@ Google Cardboard - Virtual Boy (A controller & Bluetotooth Smarphone Required)
 🔵**Setting Up Retroarch**
 1. With Super-Bit-Shader setup, start a Virtual Boy game.
 2. Pull up the "Quick Menu" and locate "On-Screen Overlay" to toggle the "Display Overlay" off.
-3. Now enter "Settings" select "Input" and proceed to "Hotkeys". Look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
+3. From "Settings" pick "Input" goto "Hotkeys", look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
 4. Next return to the "Main Menu" and enter the "Quick Menu" again.
 5. From there select "Core Options" and set the "3D Mode" to "Side-by-Side".
-6. Save these changes as a "Core Override" and head back to the "Main Menu" to properly "Quit" Retroarch to save your work.
+6. Save changes as a "Core Override" and go back to the "Main Menu" to properly "Quit" Retroarch to save your work.
 7. Now reboot the program and load your game and put the phone inside the Google Cardboard.
 
 **NOTE**: "Core Options" cannot adjust Interpupillary Distance (IPD), make sure your Google Cardboard is fitted for Retroarch.
 
 -----------------------------------------------------------------------------------------------------------------------
-🐍Red-Viper
+🐍Red-Viper (3DS Required)
 -----------------------------------------------------------------------------------------------------------------------
 [Red-Viper](https://github.com/skyfloogle/red-viper) is a Virtual Boy Emulator for the 3DS by SkyFloogle.
 
-The program has color palette support and to use it replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
+🟢**Setting Up Red-Viper**
+1. Replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
 * Directory: "RootofSD\config\red-viper"
 
 -----------------------------------------------------------------------------------------------------------------------

@@ -7,7 +7,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
 * Pokémon Mini (PokeMini)
 * Wonderswan / Wonderswan Color (Beetle Cygne)
-* Virtual Boy (Beetle VB)
+* Virtual Boy (Beetle VB) / (Red-Viper)
 
 **Paritally Supported Cores**
 * Game Boy / Game Boy Color (SameBoy) - Game Boy Color and Super Game Boy Games
@@ -40,41 +40,34 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 -----------------------------------------------------------------------------------------------------------------------
 **Install Instructions**
 -----------------------------------------------------------------------------------------------------------------------
-🟢**Part 1: Placing your Files**
+🟢**Part 1: Retroarch Setup**
 1. First download and install [Retroarch](https://www.retroarch.com/) and familiarize yourself with [Shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
-2. Download the contents of this Github and place the "Super-Bit-Shader 3.5" folder inside the "Retroarch/Shaders" folder.
-3. With SBS 3.5 now inside that folder the shader is now ready to be seen by Retroarch.
+2. Launch Retroarch and go to the following menus "Settings" -> "Video" -> "Output" -> "Video - Set Video Driver to GL".
+3. Download the contents of this Github and place the "Retroarch.SBS.3.5.1" folder inside the "Retroarch/Shaders" folder.
+4. With SBS now inside that folder the shader is now ready to be seen by Retroarch.
 
-🟣**Part 2: Preparing Retroarch**
-1. Launch Retroarch and go to the following menus "Settings" -> "Video" -> "Output" -> "Video - Set Video Driver to GL" to use SBS.
-
-🟠**Part 3: Loading Super-Bit-Shader**
+🟠**Part 2: Loading Super-Bit-Shader (PC instructions)**
 1. Load a game inside Retroarch using a supported core above.
-2. With the game loaded press F1 (PC) to bring up the "Quick Menu", from there scroll to "Shaders".
-3. Select it and choose "Load Preset" to view and enter the "Super-Bit-Shader 3.5" folder.
-4. Once inside choose your console and shader type, if unsure select "Mixed-Frames".
-5. Pick the shader color of your choice, It's a "GLSLP" file.
-6. You now have your color picked for your game, on to the next part.
+2. With the game loaded press the F1 key to bring up the "Quick Menu", from there scroll to "Shaders".
+3. Select it and choose "Load Preset" to interact with the "Retroarch.SBS.3.5.1" folder.
+4. Once inside the folder choose your console and shader type, if unsure select "Mixed-Frames".
+5. Pick the shader color of your choice, it's the "GLSLP" file.
 
-🔵**Part 4: Core Options**
-1. Now with your shader selected use backspace (PC) again to head back to the "Main Menu".
-2. From the "Main Menu" select "Quick Menu" again and locate "Core Options".
-3. "Core Options" are settings per core, and some of them need to be adjusted for SBS to work.
+🔵**Part 3: Core Options**
+1. Now with your shader selected use backspace key to head back to the "Main Menu".
+2. From the there select "Quick Menu" again and locate "Core Options".
+3. These are settings per core, and some of them need to be adjusted for SBS to work.
 
-🔵**Part 4: Core Options to Modify**
-* DoubleCherryGB: GBC Color Correction "OFF", then use "1. Game Boy Color." for GBC color correction.
-* SameBoy: Only use the "1. Game Boy Color" preset. Set GBC Color Correction "OFF".
-* PokeMini: Palette = Black & White.
-* Beetle VB: Palette = Black & White.
-* Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames / high FPS.
+* DoubleCherryGB & SameBoy: Set GBC Color Correction to "OFF".
+* PokeMini & Beetle VB: Set the Palette :Black & White".
+* Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames.
 
 🟡**Part 5: SAVE YOUR WORK**
-1. Retroarch on its own will not recall shaders automatically.
-2. Head back to the "Main Menu" using backspace (PC) and select the "Quick Menu" one last time.
+1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.
 4. Choose Save "Game Override" or "Core Override" to have Super-Bit-Shader launch every session.
-5. Use "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" as those consoles "Core Override". 
-6. Congratulations, you are all set to use Super-Bit-Shader! Press F1 (PC) to close the Retroarch menu and get back to the game.
+5. Use "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" as these consoles "Core Override". 
+6. Congratulations, you are all set to use Super-Bit-Shader! Press F1 to close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
 PCVR Setup - Virtual Boy
@@ -136,26 +129,9 @@ Google Cardboard Setup - Virtual Boy
 -----------------------------------------------------------------------------------------------------------------------
 [Red-Viper](https://github.com/skyfloogle/red-viper) is a Virtual Boy Emulator for the 3DS by SkyFloogle.
 
-The program just got color palette support, to use it replace the included "rv_config.ini" file with a color palette of your choice.
+The program has color palette support and to use it replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
 * Directory: "RootofSD\config\red-viper"
 
-Keep in mind when this entire file is replaced it wipes any preconfigured content. If you don't want to do that open up the ini file inside of a notepad program and replace the following lines.
-
-* [vbopt]
-* multicol=1
-* tint=-1
-* multitint0=-15986688
-* multitint1=-74240
-* multitint2=-10289724
-* multitint3=-5571585
-* tintscale1=2.000000
-* tintscale2=1.425000
-* tintscale3=2.000000
-
-Tips & Tricks
-1. If you want to use all color palettes, you need to save the global preset per game one, its best to plan ahead.
-2. There are "Light Games" and "Dark Games" versions to replicate SBS's 16-bit color palette.
-3. Light is the default and looks good with most titles. Dark is recommended for dimmer games.
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
 -----------------------------------------------------------------------------------------------------------------------
@@ -175,7 +151,7 @@ Guide
 -----------------------------------------------------------------------------------------------------------------------
 * **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
 * **Version 2.0-3.5**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
-* **Special Thanks** to Nispero & EADMASTER for inspiring this project.
+* **Special Thanks** to Nispero & EADMASTER for inspiring this project. Also thank you Floogle for helping me read the Red-Viper config files.
 
 -----------------------------------------------------------------------------------------------------------------------
 **Licenses** - Check the GLSL files for full details

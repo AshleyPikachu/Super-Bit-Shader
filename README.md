@@ -88,8 +88,6 @@ PCVR Setup - Virtual Boy (A Controller & Bigscreen Beta Required)
 6. You will find a "2D" button, press it until it says "SBS" for Side by Side 3D.
 7. You are now ready to play Virtual Boy.
 
-![image](https://github.com/user-attachments/assets/db362941-c020-41bb-b3e4-72bbdab7de92)
-
 -----------------------------------------------------------------------------------------------------------------------
 Google Cardboard Setup - Virtual Boy (A controller & Bluetotooth Smarphone Required)
 -----------------------------------------------------------------------------------------------------------------------

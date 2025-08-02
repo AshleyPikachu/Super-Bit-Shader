@@ -70,13 +70,13 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 6. Congratulations, you are all set! Press F1 to close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
-PCVR Setup - Virtual Boy (A Controller & Bigscreen Beta Required)
+PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
 -----------------------------------------------------------------------------------------------------------------------
 🔴**Setting Up Retroarch for VR**
 1. With Super-Bit-Shader setup, create a desktop shortcut for Retroarch to make it easy to open in VR.
 2. Start a Virtual Boy game and inside "Core Options" to set the "3D Mode" to "Side-by-Side".
 3. Go back to the "Main Menu" and select "Settings" below it.
-4. From "Settings" pick "Input" proceed to "Hotkeys", look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
+4. From "Settings" pick "Input" goto "Hotkeys", look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
 6. Return to the "Quick Menu" and save these changes as a "Core Override" and close Retroarch.
 
 🔴**Using Retroarch in VR**
@@ -89,7 +89,7 @@ PCVR Setup - Virtual Boy (A Controller & Bigscreen Beta Required)
 7. You are now ready to play Virtual Boy.
 
 -----------------------------------------------------------------------------------------------------------------------
-Google Cardboard Setup - Virtual Boy (A controller & Bluetotooth Smarphone Required)
+Google Cardboard - Virtual Boy (A controller & Bluetotooth Smarphone Required)
 -----------------------------------------------------------------------------------------------------------------------
 🔵**Setting Up Retroarch**
 1. With Super-Bit-Shader setup, start a Virtual Boy game.

@@ -38,7 +38,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 ![image](https://github.com/user-attachments/assets/5b6ab960-aef4-4088-a4ec-6aca12031e4a)
 
 -----------------------------------------------------------------------------------------------------------------------
-**Install Instructions**
+**Retroarch Shader Install Instructions**
 -----------------------------------------------------------------------------------------------------------------------
 🟢**Part 1: Retroarch Setup**
 1. First download and install [Retroarch](https://www.retroarch.com/) and familiarize yourself with [Shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
@@ -46,12 +46,12 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 3. Download the contents of this Github and place the "Retroarch.SBS.3.5.1" folder inside the "Retroarch/Shaders" folder.
 4. With SBS now inside that folder the shader is now ready to be seen by Retroarch.
 
-🟠**Part 2: Loading Super-Bit-Shader (PC instructions)**
+🟠**Part 2: Loading Super-Bit-Shader** - Keyboard Instructions
 1. Load a game inside Retroarch using a supported core above.
 2. With the game loaded press the F1 key to bring up the "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to interact with the "Retroarch.SBS.3.5.1" folder.
 4. Once inside the folder choose your console and shader type, if unsure select "Mixed-Frames".
-5. Pick the shader color of your choice, it's the "GLSLP" file.
+5. Pick "GLSLP" file that is the shader color of your choice.
 
 🔵**Part 3: Core Options**
 1. Now with your shader selected use backspace key to head back to the "Main Menu".
@@ -60,69 +60,49 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 * DoubleCherryGB & SameBoy: Set GBC Color Correction to "OFF".
 * PokeMini & Beetle VB: Set the Palette :Black & White".
-* Beetle Cygne: Color Palette = Grayscale, Color Depth - Thousands (16-bit). Turn off "60hz Mode" when using Mixed-Frames.
+* Beetle Cygne: "Color Palette = Grayscale", "Color Depth - Thousands (16-bit)". Turn off "60hz Mode" when using Mixed-Frames.
 
 🟡**Part 5: SAVE YOUR WORK**
 1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
 3. Scroll down to "Overrides" and select it.
-4. Choose Save "Game Override" or "Core Override" to have Super-Bit-Shader launch every session.
-5. Use "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" as these consoles "Core Override". 
+4. Choose Save "Core Override" or "Game Override" to have Super-Bit-Shader launch every session.
+5. Use "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" as the corresponding consoles "Core Override". 
 6. Congratulations, you are all set to use Super-Bit-Shader! Press F1 to close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
-PCVR Setup - Virtual Boy
+PCVR Setup - Virtual Boy (A Controller & Bigscreen Beta Required)
 -----------------------------------------------------------------------------------------------------------------------
-🔴**Prerequisites**
-1. A VR headset paired to a PC
-2. A controller connected to your PC / A wireless controller connected to your VR headset
-3. A Super-Bit-Shader color palette selected ahead of time.
-4. Bigscreen Beta Experience. [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/).
-
-🔴**Setting Up Retroarch**
-1. Create a shortcut to Retroarch on your desktop and open it.
-2. Start a Virtual Boy game and go into "Core Options" to set the "3D Mode" to "Side-by-Side".
-3. Go all the way back to the "Main Menu" and select "Settings" below it.
-4. From "Settings" pick "Video" -> "Scaling" -> "Integer Scale ON" -> "Aspect Ratio 16:9".
-5. Now backout of "Video" from "Settings" and select "Input", once there proceed to "Hotkeys".
-6. In "Hotkeys" look for "Menu Toggle (Controller Combo)", set it to "L3 + R3".
-7. Finally return to the "Quick Menu" and Save these changes as a "Core Override" and close your game.
+🔴**Setting Up Retroarch for VR**
+1. With Super-Bit-Shader setup, create a desktop shortcut for Retroarch to make it easy to open in VR.
+2. Start a Virtual Boy game and inside "Core Options" to set the "3D Mode" to "Side-by-Side".
+3. Go back to the "Main Menu" and select "Settings" below it.
+4. From "Settings" pick "Input" then proceed to "Hotkeys". Now look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
+6. Return to the "Quick Menu" and save these changes as a "Core Override" and close Retroarch.
 
 🔴**Using Retroarch in VR**
-1. Put your PC / Wireless controller in arms reach so you can grab it with the headset on.
-2. Inside VR launch Bigscreen, a wired connection will show your desktop on automatically.
-3. Choose your Environment, I recommend the "Retro Cinema" for eye comfort.
-4. Now using the VR controllers as pointers launch Retroarch then let go of your VR controllers.
-5. Load a Virtual Boy game using the PC controller and put the PC controller in your lap.
-6. Grab your VR controllers and go into the Bigscreen menu. From there press "My Room" and go to the "Desktop" category.
-8. Inside "Desktop" you will find a "2D" button, press it until it says "SBS" for Side by Side 3D.
-9. You are now ready to play Virtual Boy in 3D, be sure to turn off SBS before re-entering the Retroarch Menu.
+1. With your regular controller in reach, enter VR by launching an app called Bigscreen Beta. It can be the [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/) version.
+2. A wired connection will automatically show your desktop, if your using Wireless setup the "[Remote Desktop](https://www.bigscreenvr.com/remotedesktop/?modestbranding=1&autoplay=1)" app outside of this guide.
+3. Using the VR controllers a pointer launch Retroarch and use your regular controller to navigate it.
+4. Load a Virtual Boy game and put the regular controller down.
+5. Grab your VR controllers and go into the Bigscreen's menu. From there press "My Room" and go to the "Desktop" category.
+6. You will find a "2D" button, press it until it says "SBS" for Side by Side 3D.
+7. You are now ready to play Virtual Boy.
 
 ![image](https://github.com/user-attachments/assets/db362941-c020-41bb-b3e4-72bbdab7de92)
 
 -----------------------------------------------------------------------------------------------------------------------
-Google Cardboard Setup - Virtual Boy
+Google Cardboard Setup - Virtual Boy (A controller & Bluetotooth Smarphone Required)
 -----------------------------------------------------------------------------------------------------------------------
-🔵**Prerequisites**
-1. A smartphone with Bluetooth
-2. A wireless controller paired to your device ahead of time.
-3. A Super-Bit-Shader color palette selected ahead of time.
-4. A Google Cardboard compatible headset.
+🔵**Setting Up Retroarch**
+1. With Super-Bit-Shader setup, start a Virtual Boy game.
+2. Pull up the "Quick Menu" and locate "On-Screen Overlay" to toggle the "Display Overlay" off.
+3. Now enter "Settings" select "Input" and proceed to "Hotkeys". Look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
+4. Next return to the "Main Menu" and enter the "Quick Menu" again.
+5. From there select "Core Options" and set the "3D Mode" to "Side-by-Side".
+6. Save these changes as a "Core Override" and head back to the "Main Menu" to properly "Quit" Retroarch to save your work.
+7. Now reboot the program and load your game and put the phone inside the Google Cardboard.
 
-🔵**Setting Up Retroarch** - Touch UI
-1. Install Retroarch on your smartphone and launch it.
-2. Start a Virtual Boy game, and using the touchscreen return to the "Quick Menu".
-3. Locate "On-Screen Overlay" and toggle "Display Overlay" to off.
-4. Now press the Settings Gear to enter "Settings".
-5. In "Settings" pick "Input" and once there proceed to "Hotkeys".
-6. In "Hotkeys" look for "Menu Toggle (Controller Combo)", set it to "L3 + R3".
-7. Next press the Home icon to return to the "Main Menu" and select "Quick Menu" again.
-8. Inside "Quick Menu" select "Core Options" and set the "3D Mode" to "Side-by-Side".
-10. From "Quick Menu" save these changes as a "Core Override" and head back to the "Main Menu".
-11. From the "Main Menu" press the "Quit" button to properly close Retroarch to save your work.
-12. Now reboot the program and load your game of choice to play.
-13. Finally with the game running and a controller paired ahead of time, put the phone in the Google Cardboard to play.
-
-**NOTE**: "Core Options" cannot adjust Interpupillary Distance (IPD), make sure your Google Cardboard is fitted for Retroarch or the phone the can be adjusted.
+**NOTE**: "Core Options" cannot adjust Interpupillary Distance (IPD), make sure your Google Cardboard is fitted for Retroarch.
 
 -----------------------------------------------------------------------------------------------------------------------
 🐍Red-Viper

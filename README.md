@@ -84,7 +84,7 @@ PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
 2. A wired connection will automatically show your desktop, if your using Wireless setup the "[Remote Desktop](https://www.bigscreenvr.com/remotedesktop/?modestbranding=1&autoplay=1)" app outside of this guide.
 3. Using the VR controllers a pointer launch Retroarch and use your regular controller to navigate it.
 4. Load a Virtual Boy game and put the regular controller down.
-5. Grab your VR controllers and go into the Bigscreen's menu. From there press "My Room" and go to the "Desktop" category.
+5. With VR controllers go into the Bigscreen's menu and press "My Room" to locate to the "Desktop" category.
 6. You will find a "2D" button, press it until it says "SBS" for Side by Side 3D.
 7. You are now ready to play Virtual Boy.
 

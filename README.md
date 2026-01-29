@@ -3,7 +3,7 @@
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes. Also, there are options for the "Color" versions of consoles like GBC, NGPC, and WSC with the goal of creating a more accurate experience.
   
 **Supported Consoles**
-* Game Boy / Game Boy Color (TGB Dual / DoubleCherryGB (Core May be broken!)
+* Game Boy / Game Boy Color (TGB Dual / DoubleCherryGB)
 * Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
 * Pokémon Mini (PokeMini)
 * Wonderswan / Wonderswan Color (Beetle Cygne)

@@ -15,25 +15,13 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 ------------------------------------------------------------------------------------------------------------------
 **Screenshots**
 ------------------------------------------------------------------------------------------------------------------
-* Game Boy - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
-<img width="323" height="290" alt="Fydo&#39;s Magic Tiles (4 0)" src="https://github.com/user-attachments/assets/e690748e-43df-41f3-876f-ccf61d8cf550" />
+| Game Boy                            | Neo Geo Pocket                      | Pokemon Mini                      |
+| ----------------------------------- | ----------------------------------- |-----------------------------------|
+|<img width="323" height="290" alt="Fydo&#39;s Magic Tiles (4 0)" src="https://github.com/user-attachments/assets/e690748e-43df-41f3-876f-ccf61d8cf550" /> <br> [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)|<img width="322" height="305" alt="Neo Geo Pocket Goose" src="https://github.com/user-attachments/assets/2b5cbb5d-bd5f-43f3-b74d-f001a471371d" /><br> My Own Artwork |<img width="194" height="130" alt="Pokemon Mini (4 0)" src="https://github.com/user-attachments/assets/b2e59eaa-d1c0-4029-a939-2ea27da7f187" /><br>  My Own Artwork |
 
-
-* Neo Geo Pocket - My Own Artwork
-<img width="322" height="305" alt="Neo Geo Pocket Goose" src="https://github.com/user-attachments/assets/2b5cbb5d-bd5f-43f3-b74d-f001a471371d" />
-
-
-* Virtual Boy [VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)
-<img width="772" height="451" alt="Virtual Boy (4 0)" src="https://github.com/user-attachments/assets/ec826e04-f316-4630-8008-82d8b31b337d" />
-
-
-* Wonderswan - My Own Artwork
-<img width="450" height="289" alt="Dog and Flower (4 0) WS" src="https://github.com/user-attachments/assets/d896c33f-dd4f-457d-bf61-31cb7118c571" />
-
-
-* Pokémon Mini - My Own Artwork
-<img width="194" height="130" alt="Pokemon Mini (4 0)" src="https://github.com/user-attachments/assets/b2e59eaa-d1c0-4029-a939-2ea27da7f187" />
-
+| Wonderswan                          | Virtual Boy                         |
+| ----------------------------------- | ----------------------------------- |
+|<img width="450" height="289" alt="Dog and Flower (4 0) WS" src="https://github.com/user-attachments/assets/d896c33f-dd4f-457d-bf61-31cb7118c571" /> <br> My Own Artwork| <img width="772" height="451" alt="Virtual Boy (4 0)" src="https://github.com/user-attachments/assets/ec826e04-f316-4630-8008-82d8b31b337d" /> <br>[VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)|
 
 ------------------------------------------------------------------------------------------------------------------
 **Retroarch Shader Install Instructions**

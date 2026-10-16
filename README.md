@@ -1,5 +1,5 @@
 # Super-Bit-Shader
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes. SBS also provides color correction and interframe blending as well for the ultimate handheld experience.
   
 **Supported Consoles**
@@ -12,9 +12,9 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 **Paritally Supported Cores**
 * Game Boy / Game Boy Color (SameBoy) - Game Boy Color and Super Game Boy Games
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 **Screenshots**
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 * Game Boy - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
 <img width="323" height="290" alt="Fydo&#39;s Magic Tiles (4 0)" src="https://github.com/user-attachments/assets/e690748e-43df-41f3-876f-ccf61d8cf550" />
 
@@ -35,13 +35,13 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 <img width="194" height="130" alt="Pokemon Mini (4 0)" src="https://github.com/user-attachments/assets/b2e59eaa-d1c0-4029-a939-2ea27da7f187" />
 
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 **Retroarch Shader Install Instructions**
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 🟢**Part 1: Retroarch Setup**
 1. First download and install [Retroarch](https://www.retroarch.com/) and familiarize yourself with the [program](https://www.youtube.com/watch?v=5F-Fo2f_4d0) and [Shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
 2. Launch Retroarch and go to "Settings" -> "Video" -> "Output" -> "Video - Set Video Driver to GL".
-3. Download a release version and place the "Retroarch.SBS.3.5.1" folder inside the "Retroarch/Shaders" directory.
+3. Download a release version and place the "SuperBitShader-ra" folder inside the "Retroarch/Shaders" directory.
 4. Now is now ready to be seen by Retroarch.
 
 🟠**Part 2: Loading Super-Bit-Shader**
@@ -66,34 +66,34 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 4. Choose Save "Core Override" or "Game Override" to have Super-Bit-Shader launch every session.
 5. Congratulations, you are all set! Close the Retroarch menu and get back to the game.
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 🐍[Red-Viper](https://github.com/skyfloogle/red-viper) (3DS Required)
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 🟢**Setting Up Red-Viper**
 1. This is a Virtual Boy Emulator for the 3DS by SkyFloogle.
 2. Replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
 * Directory: "RootofSD\config\red-viper"
 3. You are now all set to use Red-Viper and can choose your palettes in the emulator.
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 Prerequisites
 1. You will need a Photo editor with Hex Colors and the option to modify Hue, Chroma and Saturation.
 2. This tool to [Convert Hex Color to GLSL vec3](https://airtightinteractive.com/util/hex-to-glsl/)
 3. The ability to copy, edit and save the glsl files included in this github with a text editor.
 4. This github's download includes samples and instructions for each console, read there for further instructions.
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 **Credits**
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 * **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
 * **Version 2.0+**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
 * **Special Thanks** to Nispero & EADMASTER for inspiring this project. Also thank you SkyFloogle for helping me read the Red-Viper config.
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 **Licenses** - Check the GLSL files for full details
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 * "Super-Bit-Shader" by Ashley the Pikachu (Digiflower5) and hunterk is Public Domain.
 * "pixel-aa / to_lin" shaders by fishku are Public Domain.
 * "mixed-frames" shader by jdgleaver is GNU General Public License.
@@ -103,8 +103,8 @@ Prerequisites
 * "vba-color" by PokeFan531, Mangler & hunterk is Public Domain.
 * All separate supporting shaders included with SBS are from RA's Online Updater unmodified and have their own separate licenses.
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 **Extra Notes & Tips**
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.

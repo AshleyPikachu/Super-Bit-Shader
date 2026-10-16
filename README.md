@@ -31,7 +31,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 <img width="450" height="289" alt="Dog and Flower (4 0) WS" src="https://github.com/user-attachments/assets/d896c33f-dd4f-457d-bf61-31cb7118c571" />
 
 
-* Pokémon Mini - Mu Own Artwork
+* Pokémon Mini - My Own Artwork
 <img width="194" height="130" alt="Pokemon Mini (4 0)" src="https://github.com/user-attachments/assets/b2e59eaa-d1c0-4029-a939-2ea27da7f187" />
 
 

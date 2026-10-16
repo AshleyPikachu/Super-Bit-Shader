@@ -1,6 +1,6 @@
 # Super-Bit-Shader
 -----------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes. Also, there are options for the "Color" versions of consoles like GBC, NGPC, and WSC with the goal of creating a more accurate experience.
+Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes. SBS also provides color correction and interframe blending as well for the ultimate handheld experience.
   
 **Supported Consoles**
 * Game Boy / Game Boy Color (TGB Dual / DoubleCherryGB)
@@ -16,19 +16,24 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 **Screenshots**
 -----------------------------------------------------------------------------------------------------------------------
 * Game Boy - [Fydo's Magic Tiles](https://ohnotomsutton.itch.io/fydos-magic-tiles)
-![image](https://github.com/user-attachments/assets/6b493a3d-9139-429d-90b4-e9d0534f161b)
+<img width="323" height="290" alt="Fydo&#39;s Magic Tiles (4 0)" src="https://github.com/user-attachments/assets/e690748e-43df-41f3-876f-ccf61d8cf550" />
+
 
 * Neo Geo Pocket - My Own Artwork
-![image](https://github.com/user-attachments/assets/0590a254-e07d-41df-847b-d4563b9d5576)
+<img width="322" height="305" alt="Neo Geo Pocket Goose" src="https://github.com/user-attachments/assets/2b5cbb5d-bd5f-43f3-b74d-f001a471371d" />
+
 
 * Virtual Boy [VUENgine Platformer Demo](https://www.virtual-boy.com/homebrew/vuengine-platformer-demo/), [Fishbone](https://www.virtual-boy.com/homebrew/fishbone/), [Elevated Speed](https://www.virtual-boy.com/homebrew/elevated-speed/), and [Multi Color Demo](https://www.virtual-boy.com/homebrew/multi-color-demo/)
-![image](https://github.com/user-attachments/assets/f1ffd0a5-73f1-420b-b7ae-e844013211ce)
+<img width="772" height="451" alt="Virtual Boy (4 0)" src="https://github.com/user-attachments/assets/ec826e04-f316-4630-8008-82d8b31b337d" />
+
 
 * Wonderswan - My Own Artwork
-![image](https://github.com/user-attachments/assets/b13dfe01-a28c-4048-be48-199d694cc297)
+<img width="450" height="289" alt="Dog and Flower (4 0) WS" src="https://github.com/user-attachments/assets/d896c33f-dd4f-457d-bf61-31cb7118c571" />
+
 
 * Pokémon Mini - [Cortex](https://www.pokemon-mini.net/games/cortex/)
-![image](https://github.com/user-attachments/assets/5b6ab960-aef4-4088-a4ec-6aca12031e4a)
+<img width="194" height="130" alt="Pokemon Mini (4 0)" src="https://github.com/user-attachments/assets/b2e59eaa-d1c0-4029-a939-2ea27da7f187" />
+
 
 -----------------------------------------------------------------------------------------------------------------------
 **Retroarch Shader Install Instructions**
@@ -42,7 +47,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 🟠**Part 2: Loading Super-Bit-Shader**
 1. Load a game inside Retroarch using a supported core above.
 2. With the game loaded bring up the Retroarch "Quick Menu", from there scroll to "Shaders".
-3. Select it and choose "Load Preset" to interact with the "Retroarch.SBS.3.5.1" folder.
+3. Select it and choose "Load Preset" to interact with the "SuperBitShader-ra" folder.
 4. Once inside the folder choose your console and shader type, if unsure select "Mixed-Frames".
 5. Pick "GLSLP" file that is the shader color of your choice.
 
@@ -62,14 +67,6 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 5. Congratulations, you are all set! Close the Retroarch menu and get back to the game.
 
 -----------------------------------------------------------------------------------------------------------------------
-**Shader Versions**
------------------------------------------------------------------------------------------------------------------------
-* **Regular**: SBS applied to the handheld with no modifications to the output.
-* **Mixed-Frames**: SBS + Mixed-Frames. It used to prevent flicker and is the recommended as the default.
-* **Pixel-AA**: Anti-Aliasising option for non integerscale displays.
-* **Color Handheld Presets**: "1. Game Boy Color", "1. Neo Geo Pocket Color" and "1. Wonderswan Color (Crystal)" should be assigned as a "Core Override" for those handhelds with monochrome games being a "Game Override".
-
------------------------------------------------------------------------------------------------------------------------
 🐍[Red-Viper](https://github.com/skyfloogle/red-viper) (3DS Required)
 -----------------------------------------------------------------------------------------------------------------------
 🟢**Setting Up Red-Viper**
@@ -77,39 +74,6 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 2. Replace the included "rv_config.ini" on your 3DS's SD card with the file from the Github release page.
 * Directory: "RootofSD\config\red-viper"
 3. You are now all set to use Red-Viper and can choose your palettes in the emulator.
-
------------------------------------------------------------------------------------------------------------------------
-PCVR - Virtual Boy (A Controller & Bigscreen Beta Required)
------------------------------------------------------------------------------------------------------------------------
-🔴**Setting Up Retroarch for VR**
-1. With Super-Bit-Shader setup, create a desktop shortcut for Retroarch to make it easy to open in VR.
-2. Start a Virtual Boy game and inside "Core Options" to set the "3D Mode" to "Side-by-Side".
-3. Go back to the "Main Menu" and select "Settings" below it.
-4. From "Settings" pick "Input" goto "Hotkeys", look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
-6. Return to the "Quick Menu" and save these changes as a "Core Override" and close Retroarch.
-
-🔴**Using Retroarch in VR**
-1. With a regular controller in reach, enter VR and launch Bigscreen Beta. It can be [Steam](https://store.steampowered.com/app/457550/Bigscreen_Beta/), [Rift Store](https://www.meta.com/experiences/pcvr/bigscreen-beta/1018613041536358/) or [Quest Store](https://www.meta.com/experiences/bigscreen-beta/2497738113633933/).
-2. A wired connection automatically shows your desktop. Use "[Remote Desktop](https://www.bigscreenvr.com/remotedesktop/?modestbranding=1&autoplay=1)" for wireless.
-3. Using the VR controllers a pointer launch Retroarch and use your regular controller to navigate it.
-4. Load a Virtual Boy game and put the regular controller down.
-5. With VR controllers go into the Bigscreen's menu and press "My Room" to locate to the "Desktop" category.
-6. You will find a "2D" button, press it until it says "SBS" for Side by Side 3D.
-7. You are now ready to play Virtual Boy.
-
------------------------------------------------------------------------------------------------------------------------
-Google Cardboard - Virtual Boy (A Controller & Smartphone Required)
------------------------------------------------------------------------------------------------------------------------
-🔵**Setting Up Retroarch**
-1. With Super-Bit-Shader setup, start a Virtual Boy game.
-2. Pull up the "Quick Menu" and locate "On-Screen Overlay" to toggle the "Display Overlay" off.
-3. From "Settings" pick "Input" goto "Hotkeys", look for "Menu Toggle (Controller Combo)" and select "L3 + R3".
-4. Next return to the "Main Menu" and enter the "Quick Menu" again.
-5. From there select "Core Options" and set the "3D Mode" to "Side-by-Side".
-6. Save changes as a "Core Override", go back to the "Main Menu" to properly "Quit" Retroarch to save your work.
-7. Now reboot the program and load your game and put the phone inside the Google Cardboard.
-
-**NOTE**: "Core Options" cannot adjust Interpupillary Distance (IPD), make sure your Google Cardboard is fitted for Retroarch.
 
 -----------------------------------------------------------------------------------------------------------------------
 **How to Create Your Own Palette**
@@ -120,16 +84,14 @@ Prerequisites
 3. The ability to copy, edit and save the glsl files included in this github.
 
 Guide
-1. First create a color palette in a program of your choosing. This github includes sample sheets for each palette.
-2. When making a Palette keep the light levels around the same as the grayscale templates with the exception being Virtual Boy.
-3. Feel free to experiment with Chroma, Saturation, and Hue.
-4. More details are available in each consoles glsl files.
+1. First create a color palette in a program of your choosing. I recommend Gimp, Pinta or Paint.net
+2. This github's download includes samples and instructions for each console. read there for further instructions.
 
 -----------------------------------------------------------------------------------------------------------------------
 **Credits**
 -----------------------------------------------------------------------------------------------------------------------
 * **Version 1.0**: Testing and calibrating, color selection by Digiflower5 (AshleyPikachu). Base code by hunterk.
-* **Version 2.0-3.5.X**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
+* **Version 2.0 Onward**: Testing, calibrating, color selection, code modifications, and comments by Digiflower5 (AshleyPikachu)
 * **Special Thanks** to Nispero & EADMASTER for inspiring this project. Also thank you SkyFloogle for helping me read the Red-Viper config.
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -141,10 +103,11 @@ Guide
 * "gba-color" by Pokefan531 and hunterk is Public Domain.
 * "gbc-color" by Pokefan531 and hunterk is Public Domain.
 * "gdapt" by Sp00kyFox does not have a license listed.
-* All seperate supporting shaders included with SBS are from Retroarch's Online Updater unmodified and have their own licenses.
+* "vba-color" by PokeFan531, Mangler & hunterk is Public Domain.
+* All separate supporting shaders included with SBS are from RA's Online Updater unmodified and have their own separate licenses.
 
 -----------------------------------------------------------------------------------------------------------------------
 **Extra Notes & Tips**
 -----------------------------------------------------------------------------------------------------------------------
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
-* You can use Overrides to set your video driver per core if you need another display driver.
+* You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.

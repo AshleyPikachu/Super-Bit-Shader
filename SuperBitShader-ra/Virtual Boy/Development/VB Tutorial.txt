@@ -1,0 +1,79 @@
+Making Palettes for Super-Bit-Shader - Virtual Boy Guide
+
+----------------------------------------------------------------------
+Pre-Requisites / Required Tools
+----------------------------------------------------------------------
+* Gimp: https://gimp.cc/index.html
+* Text Editor: https://notepad-plus-plus.org/ or Kate https://kate-editor.org/
+* Retroarch Shader Setup: https://www.youtube.com/watch?v=YyZ6IrmsNgY
+* Retroarch Core Options: https://youtu.be/qzPtd4yc8xQ?si=ZxQ4V4SGvn4SF_y0&t=144
+* Knowledge of File Directories: https://www.youtube.com/watch?v=KN8YgJnShPM
+* VB Multi-Color Demo Software: https://www.virtual-boy.com/content/downloads/roms/Multi%20Color%20Demo.zip
+* Hex to Glsl Vec3: https://airtightinteractive.com/util/hex-to-glsl/
+----------------------------------------------------------------------
+The Virtual Boy Hardware Explained
+----------------------------------------------------------------------
+1. The Virtual Boy is a handheld that uses 4 monochrome shades on real hardware.
+
+2. Super-Bit-Shader is a post processing shader that increases the color palette from 4 to 16 shades based on the Virtual Boys light levels.
+
+3. Also a real Virtual Boy has interframe blending for transparency, this effect is pre-baked into Super-Bit-Shader.
+
+----------------------------------------------------------------------
+How to Make your own Palette
+----------------------------------------------------------------------
+1. First open one of the included Mixed-Frames samples, in this tutorials case choose Sunset.
+shaders/SuperBitShader-ra/Virtual Boy/Development/Mixed Frames - Virtual Boy/
+
+2. Now with Sunset opened in Gimp you will see four groups that keep the palettes organized.
+
+- Core Palette: W (White), 1, 3, B (Black)
+- Dark Palette: 2, 4, 5, 9
+- Transition Palette: 6, 7, 8, 10
+- Dark Transition Palette: 11, 12, 13, 14
+
+3. This version of the palettes have the colors blown out, without it the shader would look dull when combined with "mixed_frames".
+
+4. Using Gimps "Select by Color Tool" with the threshold of 0.0 select the following colors:
+
+2, 4, 5, 6, 7, 8
+
+5. Now using "Hue-Chroma" shift all of those by +/- 30.00 to match the "Core Palette" (W,1,3,B) to make changing colors easier.
+
+6. Next you need to hue shift these colors in groups together, select the following sets to shift them:
+
+- White: W, 4, 6
+- Yellow: 1, 2, 8
+- Pink: 3, 5, 7
+- Black: B, 9, 10, 11, 12, 13, 14
+
+7. Only change their hue as you see fit, when satisfied hue shift "2,4,5,6,7 and 8" by +/- 30 to complete the palette.
+
+----------------------------------------------------------------------
+Importing the Palette into Retroarch
+----------------------------------------------------------------------
+1. Make a copy of "SBS - Virtual Boy (16-bit) - Sunset.glsl" in the following directory:
+retroarch\shaders\SuperBitShader-ra\Virtual Boy\shader-files
+
+2. Rename Sunset into your preferred palette name.
+Example: "SBS - Virtual Boy (16-bit) - PaletteNameHERE.glsl
+
+3. Open the file in a text editor, locate the "Palette Settings", then use the provided Hex to Vec3 converter to apply your colors.
+https://airtightinteractive.com/util/hex-to-glsl/
+
+3. Save the file and close it. Now it's time to change directories to the following:
+retroarch\shaders\SuperBitShader-ra\Virtual Boy
+
+4. Make a copy of "4. SBS - Virtual Boy Sunset.glslp" and rename it to your preferred palette name.
+Example: "5. SBS - Virtual Boy PaletteNameHERE.glslp"
+
+5. Open the GLSLP file in a text editor and change Sunset to your palettes name as well.
+
+----------------------------------------------------------------------
+Testing the Palette
+----------------------------------------------------------------------
+1. Load the "VB Multi-Color Demo" from Retroarch's Beetle VB Core.
+
+2. Access shaders from the Quick Menu and load your shader preset to test.
+
+3. If it looks good, you are all set! :)

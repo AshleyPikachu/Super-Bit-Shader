@@ -82,7 +82,7 @@ Prerequisites
 ------------------------------------------------------------------------------------------------------------------
 **Licenses** - Check the GLSL files for full details
 ------------------------------------------------------------------------------------------------------------------
-All separate supporting shaders included with SBS are from RA's Online Updater unmodified and have their own separate licenses in their files.
+All separate supporting shaders included with SBS are from RA's Online Updater unmodified and have their own separate licenses in their files, this list is for version 4.0.
 
 * "Super-Bit-Shader" by Ashley the Pikachu (Digiflower5) and hunterk is Public Domain.
 * "gba-color" by Pokefan531 and hunterk is Public Domain.

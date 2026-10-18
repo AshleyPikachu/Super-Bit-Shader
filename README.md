@@ -83,11 +83,11 @@ Prerequisites
 **Licenses** - Check the GLSL files for full details
 ------------------------------------------------------------------------------------------------------------------
 * "Super-Bit-Shader" by Ashley the Pikachu (Digiflower5) and hunterk is Public Domain.
-* "mixed-frames" shader by jdgleaver is GNU General Public License.
 * "gba-color" by Pokefan531 and hunterk is Public Domain.
 * "gbc-color" by Pokefan531 and hunterk is Public Domain.
-* "gdapt" by Sp00kyFox does not have a license listed.
 * "vba-color" by PokeFan531, Mangler & hunterk is Public Domain.
+* "bicubic" by Team XBMC is GNU General Public License.
+* "mixed-frames" shader by jdgleaver is GNU General Public License.
 * All separate supporting shaders included with SBS are from RA's Online Updater unmodified and have their own separate licenses.
 
 ------------------------------------------------------------------------------------------------------------------
@@ -95,3 +95,4 @@ Prerequisites
 ------------------------------------------------------------------------------------------------------------------
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.
+* General Public License Terms can be found here: https://www.gnu.org/

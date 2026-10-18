@@ -83,7 +83,6 @@ Prerequisites
 **Licenses** - Check the GLSL files for full details
 ------------------------------------------------------------------------------------------------------------------
 * "Super-Bit-Shader" by Ashley the Pikachu (Digiflower5) and hunterk is Public Domain.
-* "pixel-aa / to_lin" shaders by fishku are Public Domain.
 * "mixed-frames" shader by jdgleaver is GNU General Public License.
 * "gba-color" by Pokefan531 and hunterk is Public Domain.
 * "gbc-color" by Pokefan531 and hunterk is Public Domain.

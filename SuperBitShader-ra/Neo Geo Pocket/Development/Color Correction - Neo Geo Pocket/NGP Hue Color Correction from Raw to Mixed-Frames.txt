@@ -1,0 +1,36 @@
+RAW HUE                 INITAL COLOR CORRECTION FROM CONSOLE
+____________________________________________________
+UNIVERSAL
+W. White                        = NA
+1. Off White            125.7   = 126.3 (0.6 Gap)
+6. Monochrome Dark              = NA
+B. Black                265.7   = NA
+
+FROST
+2. Cyan                 212.4    = 214.5 (2.1 Gap)
+3. Lavender             291.4    = 291.9 (0.5 Gap)
+4. Monochrome           90       = NA
+5. Dark Blue            270.5    = 272.7 (2.2 Gap)
+
+JADE
+2. Moss                 105.1    = 104.6 (0.5 Gap)
+3. Jade Blue            218.0    = 218.4 (0.4 Gap)
+4. Brown                30.7     = 32.5 (1.8 Gap)
+5. Stone                269.1    = 268.3 (0.8 Gap)
+
+
+SUNSET
+2. Yellow               81.7     = 82.1 (0.4 Gap)
+3. Coral                19.8     = 19.9 (0.1 Gap)
+4. Lavender             285.7    = 286.3 (0.6 Gap)
+5. Dark Plum            303.3    = 304.8 (1.5 Gap)
+
+____________________________________________________
+MAXIMUM GAP FROM COLOR CORRECTION TO MIXED FRAMES
+Note: For Monochrome Hue / Chroma are excluded from the check
+
+Light: 0.9 Gap
+
+Chroma: 1 Gap
+
+Hue: 1.5 Gap

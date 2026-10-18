@@ -1,0 +1,72 @@
+Making Palettes for Super-Bit-Shader - Neo Geo Pocket Guide
+
+----------------------------------------------------------------------
+Pre-Requisites / Required Tools
+----------------------------------------------------------------------
+* Gimp: https://gimp.cc/index.html
+* Text Editor: https://notepad-plus-plus.org/ or Kate https://kate-editor.org/
+* Retroarch Shader Setup: https://www.youtube.com/watch?v=YyZ6IrmsNgY
+* Retroarch Core Options: https://youtu.be/qzPtd4yc8xQ?si=ZxQ4V4SGvn4SF_y0&t=144
+* Knowledge of File Directories: https://www.youtube.com/watch?v=KN8YgJnShPM
+* The Wonderswan 144p Test Suite as theres not a tool for NGP: https://github.com/asiekierka/240p-test-ws
+* Hex to Glsl Vec3: https://airtightinteractive.com/util/hex-to-glsl/
+----------------------------------------------------------------------
+The Neo Geo Pocket Hardware Explained
+----------------------------------------------------------------------
+1. The Neo Geo Pocket is a handheld that uses 8 monochrome shades, with 4-6 at a time in practice. That being said there is not a lot of tools for this hardware so take 4-6 with a grain of salt.
+
+2. A real Neo Geo Pocket Color has input that looks different when processed through the Neo Geo Pocket Colors Display, these color palettes are designed to match that output with in a 2.2 hue margin of error or less for both color correction and mixed-frames.
+
+3. Also a real Neo Geo Pocket has interframe blending for transparency, this effect is pre-baked into Super-Bit-Shader.
+
+----------------------------------------------------------------------
+How to Make your own Palette
+----------------------------------------------------------------------
+1. First open one of the included Mixed-Frames samples, in this tutorials case choose Sunset.
+retroarch/shaders/SuperBitShader-ra/Neo Geo Pocket/Development/Mixed Frames - Neo Geo Pocket/
+
+2. Now with Sunset opened in Gimp you will see each color out of the palette labeled.
+
+- W = White (This is Same Across All Palettes)
+- 1 (This is Same Across All Palettes)
+- 2
+- 3
+- 4
+- 5
+- 6 (This is Same Across All Palettes)
+- B = Black (This is Same Across All Palettes)
+
+3. This version of the palettes have the colors blown out, without it the shader would look dull when combined with "mixed_frames".
+
+4. If you want to go extra authentic do research on what your system can output color wise after color correction.
+
+5. To make adjustments more managable, I recommend leaving "W,1,6 and B" alone and only tweak "2,3,4, and 5" hue's as you see fit.
+
+----------------------------------------------------------------------
+Importing the Palette into Retroarch
+----------------------------------------------------------------------
+1. Make a copy of "SBS - Neo Geo Pocket (8-bit) - Sunset.glsl" in the following directory:
+retroarch\shaders\SuperBitShader-ra\Neo Geo Pocket\shader-files
+
+2. Rename Sunset into your preferred palette name.
+Example: "SBS - Neo Geo Pocket (8-bit) - PaletteNameHERE.glsl
+
+3. Open the file in a text editor, locate the "Palette Settings", then use the provided Hex to Vec3 converter to apply your colors.
+https://airtightinteractive.com/util/hex-to-glsl/
+
+3. Save the file and close it. Now it's time to change directories to the following:
+retroarch\shaders\SuperBitShader-ra\Neo Geo Pocket
+
+4. Make a copy of "4. SBS - Neo Geo Pocket Sunset.glslp" and rename it to your preferred palette name.
+Example: "5. SBS - Neo Geo Pocket PaletteNameHERE.glslp"
+
+5. Open the GLSLP file in a text editor and change Sunset to your palettes name as well.
+
+----------------------------------------------------------------------
+How to Make your own Palette - Testing the Palette
+----------------------------------------------------------------------
+1. Load the "144p Suite" from Retroarch's Beetle Wonderswan Core.
+
+2. Access shaders from the Quick Menu and load your shader preset to test.
+
+3. If it looks good, you are all set! :)

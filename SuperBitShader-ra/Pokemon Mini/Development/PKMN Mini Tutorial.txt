@@ -1,0 +1,73 @@
+Making Palettes for Super-Bit-Shader - Pokémon Mini Guide
+
+----------------------------------------------------------------------
+Pre-Requisites / Required Tools
+----------------------------------------------------------------------
+* Gimp: https://gimp.cc/index.html
+* Text Editor: https://notepad-plus-plus.org/ or Kate https://kate-editor.org/
+* Retroarch Shader Setup: https://www.youtube.com/watch?v=YyZ6IrmsNgY
+* Retroarch Core Options: https://youtu.be/qzPtd4yc8xQ?si=ZxQ4V4SGvn4SF_y0&t=144
+* Knowledge of File Directories: https://www.youtube.com/watch?v=KN8YgJnShPM
+* Cortex Homebrew: https://www.pokemon-mini.net/games/cortex/
+* Hex to Glsl Vec3: https://airtightinteractive.com/util/hex-to-glsl/
+----------------------------------------------------------------------
+The Pokémon Mini Hardware Explained
+----------------------------------------------------------------------
+1. The Pokémon Mini is a handheld that uses 5 monochrome shades (4 if you don't count a fast moving pattern), with 3 at a time in practice.
+
+2. Instead of real hardware, I took inspiration from Pokémon Channel for the GameCube.
+
+3. Also a real Pokemon Mini has interframe blending for transparency, this effect is part of the core by default.
+
+----------------------------------------------------------------------
+How to Make your own Palette
+----------------------------------------------------------------------
+1. First open one of the included Palette Samples, in this tutorials case choose Sunset.
+retroarch/shaders/SuperBitShader-ra/Pokemon Mini/Development/Pokemon Mini Palettes/
+
+2. Now with Sunset opened in Gimp you will see each color out of the palette labeled.
+
+- W = White
+- 1
+- 2
+- 3
+- B = Black
+
+3. Pokémon Mini cannot be fully put in color without becoming gaudy as part of the transparency being built into the core.
+
+4. Using Gimps "Select by Color Tool" with a threshold of 0.0 select color number 2.
+
+5. Now using "Hue-Chroma" shift the hue as you see fit.
+
+Frost Hue Hex: 8b9db4
+Jade Hue Hex: 85a28f
+Sunset Hue Hex: b5929a
+
+----------------------------------------------------------------------
+Importing the Palette into Retroarch
+----------------------------------------------------------------------
+1. Make a copy of "SBS - Pokemon Mini (5-bit) - Sunset.glsl" in the following directory:
+retroarch\shaders\SuperBitShader-ra\Pokemon Mini\shader-files
+
+2. Rename Sunset into your preferred palette name.
+Example: "SBS - Pokemon Mini (5-bit) - PaletteNameHERE.glsl
+
+3. Open the file in a text editor, locate the "Palette Settings", then use the provided Hex to Vec3 converter to apply your colors.
+https://airtightinteractive.com/util/hex-to-glsl/
+
+3. Save the file and close it. Now it's time to change directories to the following:
+retroarch\shaders\SuperBitShader-ra\Pokemon Mini
+
+4. Make a copy of "4. SBS - Pokemon Mini Sunset.glslp" and rename it to your preferred palette name.
+Example: "5. SBS - Pokemon Mini PaletteNameHERE.glslp"
+
+5. Open the GLSLP file in a tex editor and change Sunset to your palettes name as well.
+
+----------------------------------------------------------------------
+Testing the Palette
+----------------------------------------------------------------------
+1. Load the "Cortex Homebrew" from Retroarch's PokeMini Core.
+
+2. Access shaders from the Quick Menu and load your shader preset to test.
+
+3. If it looks good, you are all set! :)

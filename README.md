@@ -2,16 +2,19 @@
 ------------------------------------------------------------------------------------------------------------------
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well all coded by hand!
 
-**Supported Consoles**
+**Supported Consoles & Cores**
 * Game Boy / Game Boy Color (TGB Dual / DoubleCherryGB)
 * Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
 * Pokémon Mini (PokeMini)
 * Wonderswan / Wonderswan Color (Beetle Cygne)
 * Virtual Boy (Beetle VB) / (Red-Viper)
 
-**Paritally Supported Cores**
-* Game Boy / Game Boy Color (SameBoy) - Game Boy Color and Super Game Boy Games
-* Game Boy Advance - Wonderswan Color (Crystal).glslp File
+**General Color Correction + Interframe Shaders**
+* Game Boy Color / Super Game Boy: Game Boy Color.glslp
+* Neo Geo Pocket Color: Neo Geo Pocket Color.glsp
+* Wonderswan Crystal / Game Boy Advance: Wonderswan Color (Crystal).glslp
+
+**Note**: For Super Game Boy using "Game Boy Color.glslp" will apply GBC color Correction and interframe blending, if you only want the blending use Mixed-Frames instead. It can be found as a .glsl file inside the Game Boy folder.
 
 ------------------------------------------------------------------------------------------------------------------
 **Colorization Screenshots**
@@ -45,8 +48,8 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 2. From the there select "Quick Menu" again and locate "Core Options".
 3. These are settings per core, and some of them need to be adjusted for SBS to work.
 
-* DoubleCherryGB & SameBoy: Set GBC Color Correction to "OFF".
 * PokeMini & Beetle VB: Set the Palette: "Black & White".
+* DoubleCherryGB & SameBoy: Set GBC Color Correction to "OFF".
 * Beetle Cygne: Color Palette: "Grayscale", "Color Depth-Thousands (16-bit)". "60hz Mode off" when Mixed-Frames.
 
 🟡**Part 5: SAVE YOUR WORK**

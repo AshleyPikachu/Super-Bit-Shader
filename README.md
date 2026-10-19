@@ -14,7 +14,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * Neo Geo Pocket Color: Neo Geo Pocket Color.glsp
 * Wonderswan Crystal / Game Boy Advance: Wonderswan Color (Crystal).glslp
 
-**Note**: For Super Game Boy using "Game Boy Color.glslp" will apply GBC color Correction and interframe blending, if you only want the blending use Mixed-Frames instead. It can be found as a .glsl file inside the Game Boy folder.
+**Note**: Using "Game Boy Color.glslp" for SGB will apply GBC color Correction and interframe blending to the game and borders, if you only want the blending use "mixed-frames.glsl" located in the game boy folder instead.
 
 ------------------------------------------------------------------------------------------------------------------
 **Colorization Screenshots**

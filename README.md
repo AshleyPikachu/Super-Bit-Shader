@@ -95,7 +95,7 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 * General Public License Terms can be found here: https://www.gnu.org/
 
 **Color Correction + Interframe Shaders**<br>
-These shaders should work with any core in general, but could use Core Option may need some tweaks.
+These shaders should work with any core in general, but Core Options may need some tweaks.
 * Game Boy Color / Super Game Boy = Game Boy Color.glslp
 * Neo Geo Pocket Color = Neo Geo Pocket Color.glsp
 * Wonderswan Crystal / Game Boy Advance = Wonderswan Color (Crystal).glslp

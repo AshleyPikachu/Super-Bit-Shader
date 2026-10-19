@@ -94,9 +94,10 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.
 * General Public License Terms can be found here: https://www.gnu.org/
 
-**Color Correction + Interframe Shaders** - These work with any core in general, but could use core option tweaks.
+**Color Correction + Interframe Shaders**
+These shaders should work with any core in general, but could use Core Option may need some tweaks.
 * Game Boy Color / Super Game Boy = Game Boy Color.glslp
 * Neo Geo Pocket Color = Neo Geo Pocket Color.glsp
 * Wonderswan Crystal / Game Boy Advance = Wonderswan Color (Crystal).glslp
 
-**Note**: Using "Game Boy Color.glslp" for SGB will apply GBC Color Correction and Interframe Blending to the game and borders, if you only want the blending use "mixed-frames.glsl" located in the Game Boy folder instead.
+Also, using "Game Boy Color.glslp" for SGB will apply GBC Color Correction and Interframe Blending to the game and borders, if you only want the blending use "mixed-frames.glsl" located in the Game Boy folder instead.

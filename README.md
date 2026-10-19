@@ -11,6 +11,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 **Paritally Supported Cores**
 * Game Boy / Game Boy Color (SameBoy) - Game Boy Color and Super Game Boy Games
+* Game Boy Advance - Wonderswan Color (Crystal).glslp File
 
 ------------------------------------------------------------------------------------------------------------------
 **Colorization Screenshots**

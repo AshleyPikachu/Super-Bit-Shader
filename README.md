@@ -7,7 +7,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
 * Pokémon Mini (PokeMini)
 * Wonderswan / Wonderswan Color (Beetle Cygne)
-* Virtual Boy (Beetle VB) / (Red-Viper)
+* Virtual Boy (Beetle VB) / (Red-Viper 3DS)
 
 ------------------------------------------------------------------------------------------------------------------
 **Colorization Screenshots**

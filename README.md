@@ -3,7 +3,7 @@
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well all coded by hand!
 
 **Supported Consoles & Cores**
-* Game Boy / Game Boy Color (All GBC Retroarch Cores)
+* Game Boy / Super Game Boy / Game Boy Color (All if there is a BW palette)
 * Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
 * Pokémon Mini (PokeMini)
 * Wonderswan / Wonderswan Color (Beetle Cygne)
@@ -43,7 +43,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 * PokeMini & Beetle VB: Set the Palette: "Black & White".
 * Beetle Cygne: Color Palette: "Grayscale", "Color Depth-Thousands (16-bit)". "60hz Mode off" when Mixed-Frames.
-* Game Boy: Set GBC Color Correction & Interframe Blending to "OFF". This shader now works with a majority if not all GB Cores.
+* Game Boy: Set GBC Color Correction & Interframe Blending to "OFF" if need be depending on the core.
 
 🟡**Part 5: SAVE YOUR WORK**
 1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
@@ -93,7 +93,7 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.
 * General Public License Terms can be found here: https://www.gnu.org/
-* Fydo's Magic Tiles cannot run on TGB Dual / Double Cherry and is for demonstration purposes only.
+* Fydo's Magic Tiles cannot run on TGB Dual / Double Cherry GB.
 
 **Color Correction + Interframe Shaders**<br>
 These shaders should work with any core in general, but Core Options may need some tweaks.
@@ -101,4 +101,5 @@ These shaders should work with any core in general, but Core Options may need so
 * Neo Geo Pocket Color = Neo Geo Pocket Color.glsp
 * Wonderswan Crystal / Game Boy Advance = Wonderswan Color (Crystal).glslp
 
-Also, using "Game Boy Color.glslp" for SGB will apply GBC Color Correction and Interframe Blending to the game and borders, if you only want the blending use "mixed-frames.glsl" located in the Game Boy folder instead.
+**Game Boy Core Compatability**<br>
+So originally this shader was only made to work with TGB Dual and Double Cherry GB. This has been expanded and seems to generally work with all cores that play Game Boy as long as the monochrome palette matches. Be pre-prepared to tweak core options for color correction / interframe blending as needed.

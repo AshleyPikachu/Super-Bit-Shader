@@ -1,0 +1,33 @@
+FINAL COLOR CORRECTION       RAW RECREATION FROM CONSOLE
+____________________________________________________
+Frost
+W. Beach            58.9       = 58.9  (0 Gap)
+1. Cyan             195.3      = 195.3 (0 Gap)
+2. Lavender         279.9      = 279.9 (0 Gap)
+B. Black            267.2      = 267.0 (0.2 Gap)
+
+Jade
+W. Almond White     79.8       = 79.8 (0 Gap)
+1. Yellow Green     90.1       = 90.2 (0.1 Gap)
+2. Jade Blue        223.7      = 223.7 (0 Gap)
+B. Brown            28.5       = 28.5 (0 Gap)
+
+Sunset
+W. Cream            76.1       = 76.1 (0 Gap)
+1. Gold             70.4       = 69.8 (0.6 Gap)
+2. Red              8.4        = 8.1 (0.3 Gap)
+B. Dark Blue        250.0      = 250.0 (0 Gap)
+
+Avocado
+W. Light GoldenRod  98.4      = 99.8 (0.4 Gap)
+1. Avocado          119.9     = 120.1 (0.2 Gap)
+2. Dark Jade Blue   225.6     = 226.0 (0.4 Gap)
+3. Pine Green       168.5     = 166.6 (1.9 Gap)
+____________________________________________________
+MAXIMUM GAP FROM MIXED-FRAMES COLOR CORRECTION TO RE-CREATED RAW
+
+Light: 0.7
+
+Chroma: 1.3
+
+Hue: 1.9 Gap

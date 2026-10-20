@@ -3,7 +3,7 @@
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well all coded by hand!
 
 **Supported Consoles & Cores**
-* Game Boy / Super Game Boy / Game Boy Color (All if there is a BW palette)
+* Game Boy / Super Game Boy / Game Boy Color (All GB Cores if there is a BW palette)
 * Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
 * Pokémon Mini (PokeMini)
 * Wonderswan / Wonderswan Color (Beetle Cygne)
@@ -102,4 +102,8 @@ These shaders should work with any core in general, but Core Options may need so
 * Wonderswan Crystal / Game Boy Advance = Wonderswan Color (Crystal).glslp
 
 **Game Boy Core Compatability**<br>
-So originally this shader was only made to work with TGB Dual and Double Cherry GB. This has been expanded and seems to generally work with all cores that play Game Boy as long as the monochrome palette matches. Be pre-prepared to tweak core options for color correction / interframe blending as needed.
+Originally this shader was only made to work with TGB Dual / Double Cherry GB, compatibility has been expanded to generally work with all cores that play Game Boy as long as the monochrome palette matches. Be pre-prepared to tweak core options for color correction / interframe blending as needed.
+
+Also, if you only need interframe blending, select the Super Game Boy preset.
+
+

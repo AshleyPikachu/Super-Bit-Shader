@@ -93,6 +93,7 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.
 * General Public License Terms can be found here: https://www.gnu.org/
+* Fydo's Magic Tiles cannot run on TGB Dual / Double Cherry and is for demonstration purposes only.
 
 **Color Correction + Interframe Shaders**<br>
 These shaders should work with any core in general, but Core Options may need some tweaks.

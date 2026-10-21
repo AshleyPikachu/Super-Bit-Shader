@@ -53,7 +53,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 ------------------------------------------------------------------------------------------------------------------
 🔷 TGB Dual / Double Cherry GB
-- Simply load the colorized shaders and use "Game Boy Color.glslp" for GBC.
+- Works out of the box, use "Game Boy Color.glslp" for GBC.
 - Not all games work with these cores though, such as Fydo's Magic Tiles.
 
 🔶 SameBoy

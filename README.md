@@ -59,7 +59,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 🔶 Same Boy - Game Boy / Game Boy Color
 - Using "Auto Detect DMG/ CGB" System mode requires SBS for Color / Interframe Blending for OG GB.
-- Under "Video" in Core Options turn off GBC Color Correction and set "Game Boy Color.glslp" Shader.
+- Under "Video" in Core Options turn off GBC Color Correction and set the "Game Boy Color.glslp" Shader.
 
 🔷 Gambatte
 - Turn off interframe blending when using a colorized preset.

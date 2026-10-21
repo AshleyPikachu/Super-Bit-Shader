@@ -1,6 +1,6 @@
 # Super-Bit-Shader
 ------------------------------------------------------------------------------------------------------------------
-Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well all coded by hand!
+Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well, all coded by hand!
 
 **Supported Colorized Consoles & Cores**
 * Game Boy / Super Game Boy / Game Boy Color (All GB Monochrome, Grayscale or BW Palettes)

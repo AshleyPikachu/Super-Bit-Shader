@@ -50,7 +50,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * PokeMini: Set the Palette: "Black & White".
 * Beetle VB: Set the Palette: "Black & White".
 * Beetle Cygne: Color Palette: "Grayscale", "Color Depth-Thousands (16-bit)". "60hz Mode off" when Mixed-Frames.
-* Game Boy: See section below;
+* Game Boy: See section below, its beginner friendly to niche.
 
 ------------------------------------------------------------------------------------------------------------------
 🔷 TGB Dual / Double Cherry GB
@@ -58,13 +58,13 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 - Not all games work with these cores though, such as Fydo's Magic Tiles.
 
 🔶 Same Boy - Game Boy / Game Boy Color
-- Using "Auto Detect DMG/ CGB" System mode requires SBS for Color / Interframe Blending for OG GB.
+- Using Default "DMG/ CGB" System mode requires SBS for Color / Interframe Blending for OG Game Boy.
 - Under "Video" in Core Options turn off GBC Color Correction and set the "Game Boy Color.glslp" Shader.
 
 🔷 Gambatte
 - Turn off interframe blending when using a colorized preset.
 - Turn off Color Correction when using a colorized shader preset, have "GBC Color Only" ON.
-- Do not use "Game Boy Color.glslp" as the core can handle it.
+- Do not use "Game Boy Color.glslp" as the core handles it, use "Super Game Boy.GLSLP" for GBC Games.
 - Gambatte has more colors in Core Options, Per game decide if you want to use Core Option palettes.
 - Core Option Palettes can be color corrected per game by turning Core Color Correction ON.
 

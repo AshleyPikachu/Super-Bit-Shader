@@ -32,7 +32,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 🟢**Part 1: Retroarch Setup**
 1. First download and install [Retroarch](https://www.retroarch.com/) and [familiarize yourself](https://www.youtube.com/watch?v=5F-Fo2f_4d0) with the program and [Shaders](https://www.youtube.com/watch?v=YyZ6IrmsNgY).
 2. Launch Retroarch and go to "Settings" -> "Video" -> "Output" -> "Video - Set Video Driver to GL".
-3. Download a release version and place the "SuperBitShader-ra" folder inside the "Retroarch/Shaders" directory.
+3. Download the release version of SBS, and place the "SuperBitShader-ra" folder inside the "Retroarch/Shaders" directory.
 4. Super-Bit-Shader's GLSLP files are now ready to be seen by Retroarch.
 
 🟠**Part 2: Loading Super-Bit-Shader**

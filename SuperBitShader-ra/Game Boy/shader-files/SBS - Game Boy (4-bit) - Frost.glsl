@@ -1,5 +1,5 @@
 // Super Bit Shader - 4-Bit
-// Recommended Console: Game Boy (DoubleCherryGB, TGB Dual)
+// Recommended Console: Game Boy (DoubleCherryGB, TGB Dual, Gambatte, SameBoy)
 // Original Code by hunterk
 // Version 1.0: Testing & Code by Digiflower5 (AshleyPikachu) & hunterk
 // All Other Versions: Testing, calibrating, color selection, and comments by Digiflower5 (AshleyPikachu)

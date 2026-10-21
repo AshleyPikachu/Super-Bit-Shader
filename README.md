@@ -118,4 +118,5 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.
 * General Public License Terms can be found here: https://www.gnu.org/
-* SameBoy's System modes cannot be saved per game, so if you want to use Super Game Boy I recommend using Gambatte too.
+* SameBoy's System modes cannot be saved per game, so pairing it with Gamebatte is great.
+* "Super Game Boy.glslp" is just the mixed-frames interframe blending shader.

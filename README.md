@@ -105,6 +105,6 @@ These shaders should work with any core in general, but Core Options may need so
 **Game Boy Core Compatability**<br>
 Originally this shader was only made to work with TGB Dual / Double Cherry GB, compatibility has been expanded to generally work with all cores that play Game Boy as long as the monochrome palette matches. Be pre-prepared to tweak core options for color correction / interframe blending as needed.
 
-Super-Bit-Shader color palettes include interframe blending so you don't need it on as a core option if you use them. Also, if you only need interframe blending and not the custom color palettes select the Super Game Boy preset with any console.
+Super-Bit-Shader Game Boy colorized palettes include interframe blending / color correction as part of the shader, so you don't need those as a core option if you use them. Also, if you only need interframe blending and not the custom color palettes / color correction select the Super Game Boy preset with any console.
 
 

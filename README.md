@@ -39,8 +39,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 1. Load a game inside Retroarch using a supported core above.
 2. With the game loaded bring up the Retroarch "Quick Menu", from there scroll to "Shaders".
 3. Select it and choose "Load Preset" to interact with the "SuperBitShader-ra" folder.
-4. Once inside the folder choose your console and shader type, if unsure select "Mixed-Frames".
-5. Pick "GLSLP" file that is the shader color of your choice.
+4. Once inside the folder choose your console and shader type.
 
 🔵**Part 3: Core Options**
 1. Now with your shader selected use backspace key to head back to the "Main Menu".
@@ -49,38 +48,31 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 * PokeMini: Set the Palette: "Black & White".
 * Beetle VB: Set the Palette: "Black & White".
-* Beetle Cygne: Color Palette: "Grayscale", "Color Depth-Thousands (16-bit)". "60hz Mode off" when Mixed-Frames.
-* Game Boy: See section below, its beginner friendly to niche.
+* Beetle Cygne: Color Palette: "Grayscale", "Color Depth-Thousands (16-bit)". "60hz Mode off".
+* Game Boy: See section below;
 
 ------------------------------------------------------------------------------------------------------------------
 🔷 TGB Dual / Double Cherry GB
-- Simply load the shader and it will work.
+- Simply load the colorized shaders and use "Game Boy Color.glslp" for GBC.
 - Not all games work with these cores though, such as Fydo's Magic Tiles.
 
-🔶 Same Boy - Game Boy / Game Boy Color
-- Using Default "DMG/ CGB" System mode requires SBS for Color / Interframe Blending for OG Game Boy.
-- Under "Video" in Core Options turn off GBC Color Correction and set the "Game Boy Color.glslp" Shader.
+🔶 SameBoy
+- When using Default "DMG/ CGB" System mode use "Game Boy Color.glslp" for GBC.
+- When using "Super Game Boy 2" System mode across the board use "Super Game Boy.glslp"
+- Under "Video" in Core Options turn off GBC Color Correction.
 
 🔷 Gambatte
-- Turn off interframe blending when using a colorized preset.
-- Turn off Color Correction when using a colorized shader preset, have "GBC Color Only" ON.
-- Do not use "Game Boy Color.glslp" as the core handles it, instead use "Super Game Boy.glslp" for GBC.
-- Gambatte has more colors in Core Options, per game decide if you want to use Core Option palettes.
-- Core Option Palettes can be color corrected per game by turning Core Color Correction ON.
-
-🔶 Same Boy - Super Game Boy
-- Best used for [SGB](https://www.youtube.com/watch?v=JU5OBrDlOR8) mode when paired with Gambatte as System settings can't be saved per game.
-- Set the "System" to "Super Game Boy 2" across the board.
-- Use the "Super Game Boy.glslp" as a core preset for proper transprency.
-- This mode will not play Game Boy Color Games, but puts some titles in a enhanced mode.
+- Turn off Interframe Blending, and change Color Correction to "GBC Color Only".
+- Use "Super Game Boy.glslp" for interframe blending for GBC and use a colorized palette for monochrome games.
+- Gambatte itself comes with extra palettes in core options, use "Super Game Boy.glsp." with them.
 
 ------------------------------------------------------------------------------------------------------------------
 
 🟡**Part 5: SAVE YOUR WORK**
 1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
-3. Inside each category for core options and shader presets you can save an override.
-4. Choose Save "Core Preset" or "Game Preset" for Shaders to have Super-Bit-Shader launch every session.
-5. Choose Save "Core Options" or "Game Options" for Core Options to launch every session.
+3. Inside core options and shader presets you can save an override.
+4. Shaders: Choose Save "Core Preset" or "Game Preset", for Super-Bit-Shader launch every session.
+5. Core Options: Choose Save "Core Options" or "Game Options" for Core Options to launch every session.
 6. Congratulations, you are all set! Close the Retroarch properly to make sure everything stuck.
 
 ------------------------------------------------------------------------------------------------------------------
@@ -126,5 +118,4 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.
 * General Public License Terms can be found here: https://www.gnu.org/
-
-
+* SameBoy's System modes cannot be saved per game, so if you want to use Super Game Boy I recommend using Gambatte too.

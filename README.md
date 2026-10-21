@@ -69,7 +69,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 ------------------------------------------------------------------------------------------------------------------
 
 🟡**Part 5: SAVE YOUR WORK**
-1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
+1. Head back to the "Main Menu" and select the "Quick Menu" one last time.
 3. Inside core options and shader presets you can save an override.
 4. Shaders: Choose Save "Core Preset" or "Game Preset", for Super-Bit-Shader launch every session.
 5. Core Options: Choose Save "Core Options" or "Game Options" for Core Options to launch every session.

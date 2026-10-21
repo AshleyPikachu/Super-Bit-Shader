@@ -71,9 +71,9 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 🟡**Part 5: SAVE YOUR WORK**
 1. Head back to the "Main Menu" and select the "Quick Menu" one last time.
 3. Inside core options and shader presets you can save overrides to have things remain at bootup.
-4. Shaders: Choose Save "Core Preset" or "Game Preset", for Super-Bit-Shader launch every session.
+4. Shaders: Choose Save "Core Preset" or "Game Preset", for Super-Bit-Shader to launch every session.
 5. Core Options: Choose Save "Core Options" or "Game Options" for Core Options to launch every session.
-6. Congratulations, you are all set! Close the Retroarch properly to make sure everything stuck.
+6. Congratulations, you are all set! Close Retroarch properly to make sure everything saved.
 
 ------------------------------------------------------------------------------------------------------------------
 🐍[Red-Viper](https://github.com/skyfloogle/red-viper) (3DS Required)

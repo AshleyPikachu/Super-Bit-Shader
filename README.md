@@ -2,12 +2,18 @@
 ------------------------------------------------------------------------------------------------------------------
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well all coded by hand!
 
-**Supported Consoles & Cores**
-* Game Boy / Super Game Boy / Game Boy Color (All GB Cores if there is a BW palette)
+**Supported Colorized Consoles & Cores**
+* Game Boy / Super Game Boy / Game Boy Color (All GB with Monochrom, Grayscale or BW palettes)
 * Neo Geo Pocket / Neo Geo Pocket Color: (Beetle NeoPop / RACE)
 * Pokémon Mini (PokeMini)
 * Wonderswan / Wonderswan Color (Beetle Cygne)
 * Virtual Boy (Beetle VB) / (Red-Viper 3DS)
+
+**Supported Color Correction Consoles & Cores**
+* Game Boy Color
+* Super Game Boy
+* Neo Geo Pocket Color
+* Wonderswan Crystal
 
 ------------------------------------------------------------------------------------------------------------------
 **Colorization Screenshots**
@@ -41,15 +47,40 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 2. From the there select "Quick Menu" again and locate "Core Options".
 3. These are settings per core, and some of them need to be adjusted for SBS to work.
 
-* PokeMini & Beetle VB: Set the Palette: "Black & White".
+* PokeMini: Set the Palette: "Black & White".
+* Beetle VB: Set the Palette: "Black & White".
 * Beetle Cygne: Color Palette: "Grayscale", "Color Depth-Thousands (16-bit)". "60hz Mode off" when Mixed-Frames.
-* Game Boy: Set GBC Color Correction & Interframe Blending to "OFF" if need be depending on the core and mode.
+* Game Boy: See section below;
+
+------------------------------------------------------------------------------------------------------------------
+🔷 TGB Dual / Double Cherry GB
+- Simply load the shader and it will work.
+- Not all games work with these cores though, such as Fydo's Magic Tiles.
+
+🔶 Same Boy - Game Boy / Game Boy Color
+- Using "Auto Detect DMG/ CGB" System mode requires SBS for Color / Interframe Blending for OG GB.
+- Under "Video" in Core Options turn off GBC Color Correction and set "Game Boy Color.glslp" core wide.
+
+🔷 Gambatte
+- Turn off interframe blending when using a colorized preset.
+- Turn off Color Correction when using a colorized shader preset, have "GBC Color Only" ON.
+- Do not use "Game Boy Color.glslp" as the core can handle it.
+- Gambatte has more colors in Core Options, Per game decide if you want to Core Option Color Correct.
+
+🔶 Same Boy - Super Game Boy
+- Best used for [SGB](https://www.youtube.com/watch?v=JU5OBrDlOR8) mode when paired with Gambatte as System settings can't be saved per game.
+- Set the "System" to "Super Game Boy 2" across the board.
+- Use the "Super Game Boy.glslp" as a core preset for proper transprency.
+- This mode will not play Game Boy Color Games, but puts some titles in a enhanced mode.
+
+------------------------------------------------------------------------------------------------------------------
 
 🟡**Part 5: SAVE YOUR WORK**
 1. Head back to the "Main Menu" using and select the "Quick Menu" one last time.
-3. Scroll down to "Overrides" and select it.
-4. Choose Save "Core Override" or "Game Override" to have Super-Bit-Shader launch every session.
-5. Congratulations, you are all set! Close the Retroarch menu and get back to the game.
+3. Inside each category for core options and shader presets you can save an override.
+4. Choose Save "Core Preset" or "Game Preset" for Shaders to have Super-Bit-Shader launch every session.
+5. Choose Save "Core Options" or "Game Options" for Core Options to launch every session.
+6. Congratulations, you are all set! Close the Retroarch properly to make sure everything stuck.
 
 ------------------------------------------------------------------------------------------------------------------
 🐍[Red-Viper](https://github.com/skyfloogle/red-viper) (3DS Required)
@@ -90,21 +121,9 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 ------------------------------------------------------------------------------------------------------------------
 **Extra Notes & Tips**
 ------------------------------------------------------------------------------------------------------------------
+**General Notes**
 * Older releases of Super-Bit-Shader are included on this Github for archival purposes.
 * You can use Retroarch "Overrides" to set your video driver per core if you need another display driver.
 * General Public License Terms can be found here: https://www.gnu.org/
-* Fydo's Magic Tiles cannot run on TGB Dual / Double Cherry GB.
-
-**Color Correction + Interframe Shaders**<br>
-These shaders should work with any core in general, but Core Options may need some tweaks.
-* Game Boy Color = Game Boy Color.glslp
-* Super Game Boy = Super Game Boy.glsp
-* Neo Geo Pocket Color = Neo Geo Pocket Color.glsp
-* Wonderswan Crystal / Game Boy Advance = Wonderswan Color (Crystal).glslp
-
-**Game Boy Core Compatability**<br>
-Originally this part of the shader was only made for TGB Dual / Double Cherry GB. That being said compatibility has been expanded to generally work with all cores that play can use a monochrome Game Boy palette. Be pre-prepared to tweak core options for color correction / interframe blending as needed.
-
-Also, SBS Game Boy colorized palettes include interframe blending / color correction as part of the shader, so don't forget to turn that stuff off in core options if you plan on using them. If you only need interframe blending and not the custom color palettes / color correction select the Super Game Boy preset with any console.
 
 

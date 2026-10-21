@@ -91,7 +91,7 @@ Prerequisites
 1. You will need a [Photo editor](https://www.gimp.org/) with Hex Colors and the option to modify Hue, Chroma and Saturation.
 2. This tool to [Convert Hex Color to GLSL vec3](https://airtightinteractive.com/util/hex-to-glsl/)
 3. The ability to copy, edit and save the glsl files included in this github with a text editor.
-4. This github's download includes samples and instructions for each console, read those for further instructions.
+4. This github's download includes samples and instructions for each console, read there for further info.
 
 ------------------------------------------------------------------------------------------------------------------
 **Credits**
@@ -105,7 +105,7 @@ Prerequisites
 ------------------------------------------------------------------------------------------------------------------
 All separate supporting shaders included with SBS are from RA's Online Updater unmodified and have their own separate licenses in their files, this list is for version 4.0.
 
-* "Super-Bit-Shader" by Ashley the Pikachu (Digiflower5) and hunterk is Public Domain.
+* "Super-Bit-Shader" by AshleyPikachu (Digiflower5) and hunterk is Public Domain.
 * "gba-color" by Pokefan531 and hunterk is Public Domain.
 * "gbc-color" by Pokefan531 and hunterk is Public Domain.
 * "vba-color" by PokeFan531, Mangler & hunterk is Public Domain.

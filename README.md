@@ -88,10 +88,10 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 **How to Create Your Own Palette**
 ------------------------------------------------------------------------------------------------------------------
 Prerequisites
-1. You will need a Photo editor with Hex Colors and the option to modify Hue, Chroma and Saturation.
+1. You will need a [Photo editor](https://www.gimp.org/) with Hex Colors and the option to modify Hue, Chroma and Saturation.
 2. This tool to [Convert Hex Color to GLSL vec3](https://airtightinteractive.com/util/hex-to-glsl/)
 3. The ability to copy, edit and save the glsl files included in this github with a text editor.
-4. This github's download includes samples and instructions for each console, read there for further instructions.
+4. This github's download includes samples and instructions for each console, read those for further instructions.
 
 ------------------------------------------------------------------------------------------------------------------
 **Credits**

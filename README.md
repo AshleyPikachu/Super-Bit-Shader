@@ -38,7 +38,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 🟠**Part 2: Loading Super-Bit-Shader**
 1. Load a game inside Retroarch using a supported core above.
 2. With the game loaded bring up the Retroarch "Quick Menu", from there scroll to "Shaders".
-3. Select it and choose "Load Preset" to interact with the "SuperBitShader-ra" folder.
+3. Select "Load Preset" to interact with the "SuperBitShader-ra" folder.
 4. Once inside the folder choose your console and shader type.
 
 🔵**Part 3: Core Options**

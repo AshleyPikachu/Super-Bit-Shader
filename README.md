@@ -58,8 +58,8 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 
 🔶 SameBoy
 - Under "Video" in Core Options turn off GBC Color Correction.
-- Under "System" When using Default "DMG/ CGB" mode use "Game Boy Color.glslp" for GBC.
-- Under "System" When using "Super Game Boy 2" mode across the board use "Super Game Boy.glslp"
+- Under "System" When using Default "DMG/ CGB" mode use "Game Boy Color.glslp" shader for GBC.
+- Under "System" When using "Super Game Boy 2" mode across the board use "Super Game Boy.glslp".
 
 🔷 Gambatte
 - Turn off Interframe Blending, and change Color Correction to "Accurate" & "GBC Color Only".

@@ -64,7 +64,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 🔷 Gambatte
 - Turn off interframe blending when using a colorized preset.
 - Turn off Color Correction when using a colorized shader preset, have "GBC Color Only" ON.
-- Do not use "Game Boy Color.glslp" as the core handles it, use "Super Game Boy.GLSLP" for GBC Games.
+- Do not use "Game Boy Color.glslp" as the core handles it, use "Super Game Boy.glslp" for GBC Games.
 - Gambatte has more colors in Core Options, Per game decide if you want to use Core Option palettes.
 - Core Option Palettes can be color corrected per game by turning Core Color Correction ON.
 

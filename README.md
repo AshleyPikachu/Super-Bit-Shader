@@ -42,7 +42,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 4. Once inside the folder choose your console and shader type.
 
 🔵**Part 3: Core Options**
-1. Now with your shader selected use backspace key to head back to the "Main Menu".
+1. Now with your shader selected use the backspace key to head back to the "Main Menu".
 2. From the there select "Quick Menu" again and locate "[Core Options](https://www.reddit.com/r/RetroArch/comments/1uii13v/retroarch_psa_when_to_use_core_options_vs_shaders/)".
 3. These are settings per core, and some of them need to be adjusted for SBS to work.
 

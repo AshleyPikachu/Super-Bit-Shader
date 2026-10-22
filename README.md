@@ -1,3 +1,5 @@
+<div align="center"> <img width="376" height="262" alt="image" src="https://github.com/user-attachments/assets/ac6908d8-c9e4-4d60-9983-6168cd378414" /> <div align="left">
+  
 # Super-Bit-Shader
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well, all coded by hand!
 
@@ -119,5 +121,3 @@ All separate supporting shaders included with SBS are from RA's Online Updater u
 * General Public License Terms can be found here: https://www.gnu.org/
 * SameBoy's System modes cannot be saved per game, so pairing it with Gamebatte is great.
 * "Super Game Boy.glslp" is just the mixed-frames interframe blending shader.
-
-<img width="376" height="262" alt="image" src="https://github.com/user-attachments/assets/ac6908d8-c9e4-4d60-9983-6168cd378414" />

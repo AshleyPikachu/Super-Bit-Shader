@@ -1,4 +1,4 @@
-<div align="center"> <img width="376" height="262" alt="image" src="https://github.com/user-attachments/assets/d3f116f0-67a0-45ad-a0df-e1bbcfb7b919" /> <div align="left">
+<div align="center"> <img width="376" height="263" alt="image" src="https://github.com/user-attachments/assets/d3f116f0-67a0-45ad-a0df-e1bbcfb7b919" /> <div align="left">
 
 # Super-Bit-Shader
 Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the user to color monochromatic games using a variety of palettes, it also provides color correction and interframe blending as well, all coded by hand!

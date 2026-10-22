@@ -10,7 +10,7 @@ Super-Bit-Shader (SBS) is a GLSL Retroarch Pixel Index shader that allows the us
 * Wonderswan / Wonderswan Color (Beetle Cygne)
 * Virtual Boy (Beetle VB) / (Red-Viper 3DS)
 
-**Supported Color Correction Consoles & Cores**
+**Supported Color Correction Consoles**
 * Game Boy Color
 * Super Game Boy
 * Neo Geo Pocket Color
